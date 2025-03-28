@@ -1,0 +1,165 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 19416,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "DaddyLive",
+        "description": "DaddyLive Mor kanallar VPN olmadan ve Etkinlik kanallar\u0131. @keyiflerolsun Canl\u0131 TV eklentisinden yararlan\u0131lm\u0131\u015ft\u0131r.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLive.cs3",
+        "name": "DaddyLive"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/tv-logo/huhu.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 19476,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "HuhuTO",
+        "description": "Huhu.to Spor T\u00fcrkiye televizyon listesi. @keyiflerolsun Canl\u0131 TV eklentisinden yararlan\u0131lm\u0131\u015ft\u0131r.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/HuhuTO.cs3",
+        "name": "HuhuTO"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/tv-logo/kool.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 19473,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "KoolTO",
+        "description": "Kool.to Spor T\u00fcrkiye televizyon listesi. @keyiflerolsun Canl\u0131 TV eklentisinden yararlan\u0131lm\u0131\u015ft\u0131r.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/KoolTO.cs3",
+        "name": "KoolTO"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/tv-logo/oha.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 19459,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "OhaTO",
+        "description": "Oha.to Spor T\u00fcrkiye televizyon listesi. @keyiflerolsun Canl\u0131 TV eklentisinden yararlan\u0131lm\u0131\u015ft\u0131r.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/OhaTO.cs3",
+        "name": "OhaTO"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powerdizi/powerdizi.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 30537,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 3,
+        "internalName": "powerDizi",
+        "description": "powerboard`un yabanc\u0131 dizi ar\u015fivi",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerDizi.cs3",
+        "name": "powerDizi"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powersinema/powersinema.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 28250,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 3,
+        "internalName": "powerSinema",
+        "description": "powerboard`un sinema ar\u015fivi",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerSinema.cs3",
+        "name": "powerSinema"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/tvbahcesi/bahcesitv.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 19513,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "TvBahcesi",
+        "description": "TvGarden televizyon listesi. @keyiflerolsun Canl\u0131 TV eklentisinden yararlan\u0131lm\u0131\u015ft\u0131r.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TvBahcesi.cs3",
+        "name": "TvBahcesi"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/tv-logo/vavoo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 19417,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "VavooTO",
+        "description": "Vavoo.to Spor T\u00fcrkiye televizyon listesi. @keyiflerolsun Canl\u0131 TV eklentisinden yararlan\u0131lm\u0131\u015ft\u0131r.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/VavooTO.cs3",
+        "name": "VavooTO"
+    }
+]
