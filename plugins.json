@@ -1,0 +1,44 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 22745,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": -1,
+        "internalName": "powerDizi",
+        "description": "powerboard`un yabanc\u0131 dizi ar\u015fivi",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerDizi.cs3",
+        "name": "powerDizi"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 21421,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": -1,
+        "internalName": "powerSinema",
+        "description": "powerboard`un sinema ar\u015fivi",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerSinema.cs3",
+        "name": "powerSinema"
+    }
+]
