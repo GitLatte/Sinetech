@@ -1,0 +1,126 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 21968,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "DaddyLive",
+        "description": "DaddyLive Mor kanallar VPN olmadan ve Etkinlik kanallar\u0131. @keyiflerolsun Canl\u0131 TV eklentisinden yararlan\u0131lm\u0131\u015ft\u0131r.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLive.cs3",
+        "name": "DaddyLive"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 22765,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "yunus60",
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "DDizi",
+        "description": "Ddizi, dizi izle, dizi seyret, ddizi.im - G\u00fcncel ve eski dizileri en iyi g\u00f6r\u00fcnt\u00fc kalitesiyle bulabilece\u011finiz dizi izleme sitesi.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DDizi.cs3",
+        "name": "DDizi"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powerdizi/powerdizi.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 33257,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 3,
+        "internalName": "powerDizi",
+        "description": "powerboard`un yabanc\u0131 dizi ar\u015fivi",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerDizi.cs3",
+        "name": "powerDizi"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powersinema/powersinema.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 28337,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 3,
+        "internalName": "powerSinema",
+        "description": "powerboard`un sinema ar\u015fivi",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerSinema.cs3",
+        "name": "powerSinema"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 21963,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 2,
+        "internalName": "TOGrup",
+        "description": "TO Grubu spor kanallar\u0131n\u0131 i\u00e7erir: Vavoo.to, Huhu.to, Kool.to, Oha.to",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TOGrup.cs3",
+        "name": "TOGrup"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/tvbahcesi/bahcesitv.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 19513,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq",
+            "keyiflerolsun"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "TvBahcesi",
+        "description": "TvGarden televizyon listesi. @keyiflerolsun Canl\u0131 TV eklentisinden yararlan\u0131lm\u0131\u015ft\u0131r.",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TvBahcesi.cs3",
+        "name": "TvBahcesi"
+    }
+]
