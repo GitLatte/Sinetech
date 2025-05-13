@@ -1,4 +1,4 @@
-version = 1
+version = 2 // domain değişikliği
 
 cloudstream {
     authors     = listOf("GitLatte", "patr0nq")
