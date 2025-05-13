@@ -15,7 +15,7 @@ import com.lagradost.cloudstream3.HomePageList
 import com.lagradost.cloudstream3.LoadResponse
 
 class DiziFun : MainAPI() {
-    override var mainUrl = "https://dizifun2.com"
+    override var mainUrl = "https://dizifun3.com"
     override var name = "DiziFun"
     override var lang = "tr"
     override val hasMainPage = true
