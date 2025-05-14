@@ -2,6 +2,7 @@
 import os
 import re
 import logging
+import requests # requests.exceptions.RequestException için eklendi
 from urllib.parse import urlparse
 import cloudscraper # Cloudflare korumasını geçmek için requests yerine
 
@@ -76,7 +77,7 @@ def check_url_working(url, scraper):
         response = scraper.get(url, timeout=REQUEST_TIMEOUT, allow_redirects=True)
         response.raise_for_status() # Hata kodu varsa exception fırlat
 
-        content_ok = "<title>" in response.text.lower() or "dizifun" in response.text.lower() or "logo" in response.text.lower()
+        content_ok = "dizifun" in response.text.lower() and "<html>" in response.text.lower() and "<body>" in response.text.lower()
 
         if content_ok:
             final_url = response.url.strip('/')
@@ -85,7 +86,11 @@ def check_url_working(url, scraper):
         else:
             logging.warning(f"    [-] İçerik Uymuyor: {url} (Durum Kodu: {response.status_code})")
             return None
+    except requests.exceptions.RequestException as e:
+        logging.error(f"    [!] İstek Hatası: {url} - {e}")
+        return None
     except Exception as e:
+        logging.error(f"    [!] Beklenmedik Hata: {url} - {e}")
         return None
 
 def main():
@@ -122,15 +127,16 @@ def main():
 
         if not new_working_url:
             logging.warning(f"[{plugin_name}] Mevcut URL çalışmıyor: {current_url}")
-            base_name, current_number, domain_rest = domain_match.groups()
-            current_number = int(current_number)
+            base_name, current_number_str, domain_suffix_part = domain_match.groups()
+            current_number = int(current_number_str)
             # Domain kısmını düzelt (sadece .com, .org vb. kısmı al)
-            domain_only_match = re.match(r'(\.[a-zA-Z.]+)', domain_rest)
+            domain_only_match = re.match(r'(\.[a-zA-Z.]+)', domain_suffix_part)
             domain = domain_only_match.group(1) if domain_only_match else ".com"
 
             for i in range(1, MAX_URL_CHECK_ATTEMPTS + 1):
                 next_number = current_number + i
                 next_url = f"https://{base_name}{next_number}{domain}"
+                logging.info(f"[{plugin_name}] Yeni URL deneniyor: {next_url}")
                 new_working_url = check_url_working(next_url, scraper)
                 if new_working_url:
                     break
