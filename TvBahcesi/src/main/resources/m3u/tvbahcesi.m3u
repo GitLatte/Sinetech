@@ -4335,6 +4335,16 @@ https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/pla
 https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-kitchen/playlist.m3u8
 #EXTINF:-1 tvg-id="RoyaTV" tvg-name="Roya TV" tvg-country="jo" tvg-language="jo" group-title="Jordanya",Roya TV
 https://royatv-live.daioncdn.net/royatv/royatv.m3u8
+#EXTINF:-1 tvg-id="CGNTVJapan" tvg-name="CGNTV Japan" tvg-country="jp" tvg-language="jp" group-title="Japonya",CGNTV Japan
+https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
+#EXTINF:-1 tvg-id="NHKWorldPremium" tvg-name="NHK World Premium" tvg-country="jp" tvg-language="jp" group-title="Japonya",NHK World Premium
+https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan" tvg-name="NHK World-Japan" tvg-country="jp" tvg-language="jp" group-title="Japonya",NHK World-Japan
+https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
+#EXTINF:-1 tvg-id="QVCJapan" tvg-name="QVC Japan" tvg-country="jp" tvg-language="jp" group-title="Japonya",QVC Japan
+https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+#EXTINF:-1 tvg-id="ShopChannel" tvg-name="Shop Channel" tvg-country="jp" tvg-language="jp" group-title="Japonya",Shop Channel
+https://stream3.shopch.jp/HLS/master.m3u8
 #EXTINF:-1 tvg-id="CitizenExtra" tvg-name="Citizen Extra" tvg-country="ke" tvg-language="ke" group-title="Kenya",Citizen Extra
 https://74937.global.ssl.fastly.net/5ea49827ff3b5d7b22708777/live_40c5808063f711ec89a87b62db2ecab5/index.m3u8
 #EXTINF:-1 tvg-id="HisGraceTV" tvg-name="His Grace TV" tvg-country="ke" tvg-language="ke" group-title="Kenya",His Grace TV
@@ -4669,6 +4679,10 @@ https://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
 https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Tamazight" tvg-name="Tamazight" tvg-country="ma" tvg-language="ma" group-title="Marokko",Tamazight
 https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="MonacoInfo" tvg-name="Monaco Info" tvg-country="mc" tvg-language="mc" group-title="Monako",Monaco Info
+https://webtv.monacoinfo.com/live/prod/index.m3u8
+#EXTINF:-1 tvg-id="SuperyachtTV" tvg-name="Superyacht TV" tvg-country="mc" tvg-language="mc" group-title="Monako",Superyacht TV
+https://sy.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Moldova1" tvg-name="Moldova 1" tvg-country="md" tvg-language="md" group-title="Moldova",Moldova 1
 https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/master.m3u8
 #EXTINF:-1 tvg-id="Moldova2" tvg-name="Moldova 2" tvg-country="md" tvg-language="md" group-title="Moldova",Moldova 2
@@ -5219,6 +5233,26 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
 https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="OmanTV(2)" tvg-name="Oman TV (2)" tvg-country="om" tvg-language="om" group-title="Omman",Oman TV (2)
 https://cdn-globecast.akamaized.net/live/eds/oman_tv/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="FabulosaEstéreo1005FM" tvg-name="Fabulosa Estéreo 100.5 FM" tvg-country="pa" tvg-language="pa" group-title="Panama",Fabulosa Estéreo 100.5 FM
+https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8
+#EXTINF:-1 tvg-id="HispaniaTV" tvg-name="Hispania TV" tvg-country="pa" tvg-language="pa" group-title="Panama",Hispania TV
+https://www.streaming507.net:19360/hispaniamediatv/hispaniamediatv.m3u8
+#EXTINF:-1 tvg-id="HosannaVision" tvg-name="Hosanna Vision" tvg-country="pa" tvg-language="pa" group-title="Panama",Hosanna Vision
+https://1206618505.rsc.cdn77.org/LS-ATL-59020-1/playlist.m3u8
+#EXTINF:-1 tvg-id="MINFAVTV" tvg-name="MINFAV TV" tvg-country="pa" tvg-language="pa" group-title="Panama",MINFAV TV
+https://video.misistemareseller.com/minfavtv/minfavtv/playlist.m3u8
+#EXTINF:-1 tvg-id="Planet1009FM" tvg-name="Planet 100.9 FM" tvg-country="pa" tvg-language="pa" group-title="Panama",Planet 100.9 FM
+https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioAncón" tvg-name="Radio Ancón" tvg-country="pa" tvg-language="pa" group-title="Panama",Radio Ancón
+https://www.streaming507.net:19360/anconvideo/anconvideo.m3u8
+#EXTINF:-1 tvg-id="RadioHogar" tvg-name="Radio Hogar" tvg-country="pa" tvg-language="pa" group-title="Panama",Radio Hogar
+https://www.streaming507.net:19360/videoradiohogar/videoradiohogar.m3u8
+#EXTINF:-1 tvg-id="RadioReformaSeOye" tvg-name="Radio Reforma Se Oye" tvg-country="pa" tvg-language="pa" group-title="Panama",Radio Reforma Se Oye
+https://www.streaming507.net:19360/mevo2/mevo2.m3u8
+#EXTINF:-1 tvg-id="SúperQPanamá" tvg-name="Súper Q Panamá" tvg-country="pa" tvg-language="pa" group-title="Panama",Súper Q Panamá
+https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8
+#EXTINF:-1 tvg-id="TropiQ997FM" tvg-name="Tropi Q 99.7 FM" tvg-country="pa" tvg-language="pa" group-title="Panama",Tropi Q 99.7 FM
+https://www.streaming507.net:19360/videotropiq/videotropiq.m3u8
 #EXTINF:-1 tvg-id="AndesTelevisión" tvg-name="Andes Televisión" tvg-country="pe" tvg-language="pe" group-title="Peru",Andes Televisión
 https://stmv1.voxhdnet.com/tvsicuani/tvsicuani/playlist.m3u8
 #EXTINF:-1 tvg-id="AntaresTelevisión" tvg-name="Antares Televisión" tvg-country="pe" tvg-language="pe" group-title="Peru",Antares Televisión
@@ -6313,6 +6347,306 @@ https://lb1-live-mv.v2h-cdn.com/hls/ffcb/workpoint/workpoint.m3u8
 https://vdo.plathong.net/flash7057/flash7057/playlist.m3u8
 #EXTINF:-1 tvg-id="JAWHARATV" tvg-name="JAWHARA TV" tvg-country="tn" tvg-language="tn" group-title="Tunus",JAWHARA TV
 https://streaming.toutech.net/live/jtv/index.m3u8
+#EXTINF:-1 tvg-id="4UTV" tvg-name="4U TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",4U TV
+https://hls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="24TV(1)" tvg-name="24 TV (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",24 TV (1)
+https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="24TV(2)" tvg-name="24 TV (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",24 TV (2)
+https://tv.ensonhaber.com/tv24/tv24.m3u8
+#EXTINF:-1 tvg-id="24TV(3)" tvg-name="24 TV (3)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",24 TV (3)
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 tvg-id="360TV" tvg-name="360 TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",360 TV
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 tvg-id="AfroturkTV" tvg-name="Afroturk TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Afroturk TV
+https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="AkitTV" tvg-name="Akit TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Akit TV
+https://akittv-live.ercdn.net/akittv/akittv.m3u8
+#EXTINF:-1 tvg-id="AksuTV" tvg-name="Aksu TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Aksu TV
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
+#EXTINF:-1 tvg-id="AlanyaPostaTV" tvg-name="Alanya Posta TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Alanya Posta TV
+https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
+#EXTINF:-1 tvg-id="AlmahriahTV" tvg-name="Almahriah TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Almahriah TV
+https://starmenajo.com/hls/almahriah/index.m3u8
+#EXTINF:-1 tvg-id="AltasTV" tvg-name="Altas TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Altas TV
+https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="AnadoluNetTV" tvg-name="Anadolu Net TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Anadolu Net TV
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
+#EXTINF:-1 tvg-id="ATVAvrupa" tvg-name="ATV Avrupa" tvg-country="tr" tvg-language="tr" group-title="Türkiye",ATV Avrupa
+https://streamer2.nexgen.bz/ATV/index.m3u8
+#EXTINF:-1 tvg-id="BENGÜTÜRKTV" tvg-name="BENGÜTÜRK TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",BENGÜTÜRK TV
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8
+#EXTINF:-1 tvg-id="BloombergHT(1)" tvg-name="Bloomberg HT (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Bloomberg HT (1)
+https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-id="BloombergHT(2)" tvg-name="Bloomberg HT (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Bloomberg HT (2)
+https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-id="BRTV" tvg-name="BRTV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",BRTV
+https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
+#EXTINF:-1 tvg-id="BursaASTV" tvg-name="Bursa AS TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Bursa AS TV
+https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
+#EXTINF:-1 tvg-id="CanTV" tvg-name="Can TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Can TV
+https://livetv.canbroadcast.com:7443/canlican/tv.m3u8
+#EXTINF:-1 tvg-id="CekmeköyTV(1)" tvg-name="Cekmeköy TV (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Cekmeköy TV (1)
+https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv/playlist.m3u8
+#EXTINF:-1 tvg-id="CekmeköyTV(2)" tvg-name="Cekmeköy TV (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Cekmeköy TV (2)
+https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary" tvg-name="CGTN Documentary" tvg-country="tr" tvg-language="tr" group-title="Türkiye",CGTN Documentary
+https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8
+#EXTINF:-1 tvg-id="ÇiftçiTV" tvg-name="Çiftçi TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Çiftçi TV
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
+#EXTINF:-1 tvg-id="Cine1" tvg-name="Cine 1" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Cine 1
+https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
+#EXTINF:-1 tvg-id="Cine5" tvg-name="Cine5" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Cine5
+https://cdn-cine5tv.yayin.com.tr/cine5tv/cine5tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DehaTV" tvg-name="Deha TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Deha TV
+https://live.artidijitalmedya.com/artidijital_dehatv/dehatv/playlist.m3u8
+#EXTINF:-1 tvg-id="DenizPostasıTV" tvg-name="Deniz Postası TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Deniz Postası TV
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
+#EXTINF:-1 tvg-id="DHA" tvg-name="DHA" tvg-country="tr" tvg-language="tr" group-title="Türkiye",DHA
+https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
+#EXTINF:-1 tvg-id="DİMTV" tvg-name="DİM TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",DİM TV
+https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
+#EXTINF:-1 tvg-id="DiyanetTV" tvg-name="Diyanet TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Diyanet TV
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="DiyarTV(1)" tvg-name="Diyar TV (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Diyar TV (1)
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
+#EXTINF:-1 tvg-id="DiyarTV(2)" tvg-name="Diyar TV (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Diyar TV (2)
+https://yayin30.haber100.com/live/diyartv/playlist.m3u8
+#EXTINF:-1 tvg-id="DostTV" tvg-name="Dost TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Dost TV
+https://dost.stream.emsal.im/tv/live.m3u8
+#EXTINF:-1 tvg-id="ErTV" tvg-name="Er TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Er TV
+https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
+#EXTINF:-1 tvg-id="ErzurumWebTV" tvg-name="Erzurum Web TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Erzurum Web TV
+https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
+#EXTINF:-1 tvg-id="ESTV" tvg-name="ES TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",ES TV
+https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
+#EXTINF:-1 tvg-id="ETVKayseri" tvg-name="ETV Kayseri" tvg-country="tr" tvg-language="tr" group-title="Türkiye",ETV Kayseri
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
+#EXTINF:-1 tvg-id="ETVManisa" tvg-name="ETV Manisa" tvg-country="tr" tvg-language="tr" group-title="Türkiye",ETV Manisa
+https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="FinansTurkTV" tvg-name="Finans Turk TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Finans Turk TV
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+#EXTINF:-1 tvg-id="FortunaTV" tvg-name="Fortuna TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Fortuna TV
+https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="GoncaTV" tvg-name="Gonca TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Gonca TV
+https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="GrandCinema" tvg-name="Grand Cinema" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Grand Cinema
+https://gcinemahls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="GRT" tvg-name="GRT" tvg-country="tr" tvg-language="tr" group-title="Türkiye",GRT
+https://live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8
+#EXTINF:-1 tvg-id="GuneydoguTV" tvg-name="Guneydogu TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Guneydogu TV
+https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="GZT" tvg-name="GZT" tvg-country="tr" tvg-language="tr" group-title="Türkiye",GZT
+https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8
+#EXTINF:-1 tvg-id="HaberGlobal" tvg-name="Haber Global" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Haber Global
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+#EXTINF:-1 tvg-id="Haber61TV(1)" tvg-name="Haber61 TV (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Haber61 TV (1)
+https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
+#EXTINF:-1 tvg-id="Haber61TV(2)" tvg-name="Haber61 TV (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Haber61 TV (2)
+https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="HabertürkTV(1)" tvg-name="Habertürk TV (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Habertürk TV (1)
+https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
+#EXTINF:-1 tvg-id="HabertürkTV(2)" tvg-name="Habertürk TV (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Habertürk TV (2)
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8
+#EXTINF:-1 tvg-id="HalkTV" tvg-name="Halk TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Halk TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 tvg-id="HunatTV" tvg-name="Hunat TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Hunat TV
+https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
+#EXTINF:-1 tvg-id="IcelTV" tvg-name="Icel TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Icel TV
+https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal3(1)" tvg-name="Kanal 3 (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 3 (1)
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal3(2)" tvg-name="Kanal 3 (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 3 (2)
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal7" tvg-name="Kanal 7" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 7
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+#EXTINF:-1 tvg-id="Kanal7Avrupa" tvg-name="Kanal 7 Avrupa" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 7 Avrupa
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal12" tvg-name="Kanal 12" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 12
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal15" tvg-name="Kanal 15" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 15
+https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal23" tvg-name="Kanal 23" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 23
+https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal26" tvg-name="Kanal 26" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 26
+https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal32" tvg-name="Kanal 32" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 32
+https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="Kanal33" tvg-name="Kanal 33" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal 33
+https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="KANAL58" tvg-name="KANAL 58" tvg-country="tr" tvg-language="tr" group-title="Türkiye",KANAL 58
+https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalD" tvg-name="Kanal D" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal D
+https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
+#EXTINF:-1 tvg-id="KanalDDrama" tvg-name="Kanal D Drama" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal D Drama
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalFirat" tvg-name="Kanal Firat" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal Firat
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalHayat" tvg-name="Kanal Hayat" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal Hayat
+https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
+#EXTINF:-1 tvg-id="KanalS" tvg-name="Kanal S" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal S
+https://cdn-kanals.yayin.com.tr/kanals/kanals/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalUrfa" tvg-name="Kanal Urfa" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal Urfa
+https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalV" tvg-name="Kanal V" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal V
+https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalZ" tvg-name="Kanal Z" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kanal Z
+https://live.artidijitalmedya.com/artidijital_kanalz/kanalz/playlist.m3u8
+#EXTINF:-1 tvg-id="KardelenTV" tvg-name="Kardelen TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kardelen TV
+https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="KayTV(1)" tvg-name="Kay TV (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kay TV (1)
+https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8
+#EXTINF:-1 tvg-id="KayTV(2)" tvg-name="Kay TV (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Kay TV (2)
+https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
+#EXTINF:-1 tvg-id="KonyaOlayTV" tvg-name="Konya Olay TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Konya Olay TV
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
+#EXTINF:-1 tvg-id="KRALPopTV" tvg-name="KRAL Pop TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",KRAL Pop TV
+https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 tvg-id="LalegulTV" tvg-name="Lalegul TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Lalegul TV
+https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 tvg-id="LifeTV" tvg-name="Life TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Life TV
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
+#EXTINF:-1 tvg-id="LineTV" tvg-name="Line TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Line TV
+https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="MaviKaradeniz" tvg-name="MaviKaradeniz" tvg-country="tr" tvg-language="tr" group-title="Türkiye",MaviKaradeniz
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+#EXTINF:-1 tvg-id="MekameleenTV" tvg-name="Mekameleen TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Mekameleen TV
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MeltemTV" tvg-name="Meltem TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Meltem TV
+https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
+#EXTINF:-1 tvg-id="MercanTV" tvg-name="Mercan TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Mercan TV
+https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
+#EXTINF:-1 tvg-id="MTürkTV" tvg-name="MTürk TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",MTürk TV
+https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="NaturalTV" tvg-name="Natural TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Natural TV
+https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="NTV" tvg-name="NTV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",NTV
+https://dogus-live.daioncdn.net/ntv/ntv.m3u8
+#EXTINF:-1 tvg-id="Number1Ask" tvg-name="Number 1 Ask" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Number 1 Ask
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
+#EXTINF:-1 tvg-id="Number1Damar" tvg-name="Number 1 Damar" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Number 1 Damar
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+#EXTINF:-1 tvg-id="Number1Dance" tvg-name="Number 1 Dance" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Number 1 Dance
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+#EXTINF:-1 tvg-id="Number1TV" tvg-name="Number 1 TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Number 1 TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="OlayTürkTVKayseri" tvg-name="Olay Türk TV Kayseri" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Olay Türk TV Kayseri
+https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
+#EXTINF:-1 tvg-id="On6" tvg-name="On 6" tvg-country="tr" tvg-language="tr" group-title="Türkiye",On 6
+https://live.artidijitalmedya.com/artidijital_kanal16/kanal16/playlist.m3u8
+#EXTINF:-1 tvg-id="On4TV" tvg-name="On4 TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",On4 TV
+https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="ÖncüTV" tvg-name="Öncü TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Öncü TV
+https://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerDance" tvg-name="Power Dance" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power Dance
+https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerLove" tvg-name="Power Love" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power Love
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTurk(1)" tvg-name="Power Turk (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power Turk (1)
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTurk(2)" tvg-name="Power Turk (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power Turk (2)
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTürkAkustik" tvg-name="Power Türk Akustik" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power Türk Akustik
+https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTürkSlow" tvg-name="Power Türk Slow" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power Türk Slow
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTürkTaptaze" tvg-name="Power Türk Taptaze" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power Türk Taptaze
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTV(1)" tvg-name="Power TV (1)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power TV (1)
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTV(2)" tvg-name="Power TV (2)" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Power TV (2)
+https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
+#EXTINF:-1 tvg-id="SemerkandTV" tvg-name="Semerkand TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Semerkand TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ShowTV" tvg-name="Show TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Show TV
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
+#EXTINF:-1 tvg-id="SportsTV" tvg-name="Sports TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Sports TV
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+#EXTINF:-1 tvg-id="StarTV" tvg-name="Star TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Star TV
+https://dogus-live.daioncdn.net/startv/startv.m3u8
+#EXTINF:-1 tvg-id="SunRTV" tvg-name="Sun RTV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Sun RTV
+https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
+#EXTINF:-1 tvg-id="TarimTV" tvg-name="Tarim TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Tarim TV
+https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8
+#EXTINF:-1 tvg-id="TAYTV" tvg-name="TAY TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TAY TV
+https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
+#EXTINF:-1 tvg-id="TBMMTV" tvg-name="TBMM TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TBMM TV
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1 tvg-id="Tele1" tvg-name="Tele 1" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Tele 1
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 tvg-id="TempoTV" tvg-name="Tempo TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Tempo TV
+https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
+#EXTINF:-1 tvg-id="Teve2" tvg-name="Teve2" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Teve2
+https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
+#EXTINF:-1 tvg-id="TGRTBelgeselTV" tvg-name="TGRT Belgesel TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TGRT Belgesel TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TGRTHaber" tvg-name="TGRT Haber" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1 tvg-id="Tivi6" tvg-name="Tivi 6" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Tivi 6
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 tvg-id="TonTV" tvg-name="Ton TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Ton TV
+https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
+#EXTINF:-1 tvg-id="TrakyaTürkTV" tvg-name="Trakya Türk TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Trakya Türk TV
+https://live.artidijitalmedya.com/artidijital_trakyaturk/trakyaturk/playlist.m3u8
+#EXTINF:-1 tvg-id="TRT1" tvg-name="TRT 1" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT2" tvg-name="TRT 2" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTArabi" tvg-name="TRT Arabi" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Arabi
+https://tv-trtarabi.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTAvaz" tvg-name="TRT Avaz" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTBelgesel" tvg-name="TRT Belgesel" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Belgesel
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTÇocuk" tvg-name="TRT Çocuk" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Çocuk
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTDiyanetÇocuk" tvg-name="TRT Diyanet Çocuk" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Diyanet Çocuk
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTEBAOrtaokul" tvg-name="TRT EBA Ortaokul" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT EBA Ortaokul
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTHaber" tvg-name="TRT Haber" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTKurdî" tvg-name="TRT Kurdî" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Kurdî
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTMüzik" tvg-name="TRT Müzik" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Müzik
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTTürk" tvg-name="TRT Türk" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTWorld" tvg-name="TRT World" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TürkHaber" tvg-name="TürkHaber" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TürkHaber
+https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="TV1" tvg-name="TV 1" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TV 1
+https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="TV8" tvg-name="TV 8" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TV 8
+https://tv8-live.daioncdn.net/tv8/tv8.m3u8
+#EXTINF:-1 tvg-id="TV41" tvg-name="TV 41" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TV 41
+https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
+#EXTINF:-1 tvg-id="TV52" tvg-name="TV 52" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TV 52
+https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="TV100" tvg-name="TV 100" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TV 100
+https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
+#EXTINF:-1 tvg-id="TV264" tvg-name="TV 264" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TV 264
+https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVA" tvg-name="TV A" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TV A
+https://live.artidijitalmedya.com/artidijital_tva/tva/playlist.m3u8
+#EXTINF:-1 tvg-id="TV4" tvg-name="TV4" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TV4
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 tvg-id="TVnet" tvg-name="TVnet" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TVnet
+https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 tvg-id="TYTTurk" tvg-name="TYT Turk" tvg-country="tr" tvg-language="tr" group-title="Türkiye",TYT Turk
+https://cdn-tytturk.yayin.com.tr/tytturk/index.m3u8
+#EXTINF:-1 tvg-id="UrfaNatikTV" tvg-name="Urfa Natik TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Urfa Natik TV
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+#EXTINF:-1 tvg-id="ÜÜTVÜsküdarÜniversitesiTV" tvg-name="ÜÜ TV Üsküdar Üniversitesi TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",ÜÜ TV Üsküdar Üniversitesi TV
+https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8
+#EXTINF:-1 tvg-id="ViveKanalDDrama" tvg-name="Vive Kanal D Drama" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Vive Kanal D Drama
+https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="VuslatTV" tvg-name="Vuslat TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Vuslat TV
+https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
+#EXTINF:-1 tvg-id="WomanTV" tvg-name="Woman TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Woman TV
+https://embedlp.becdn.net/womantv.m3u8
+#EXTINF:-1 tvg-id="ZarokTV" tvg-name="Zarok TV" tvg-country="tr" tvg-language="tr" group-title="Türkiye",Zarok TV
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SankhyaTV" tvg-name="Sankhya TV" tvg-country="tt" tvg-language="tt" group-title="Trinidad ve Tobago",Sankhya TV
 https://5c59fd5680a05.streamlock.net/live/_definst_/ngrp:SANKHYATV.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BeautifulLifeTV" tvg-name="Beautiful Life TV" tvg-country="tw" tvg-language="tw" group-title="Tayvan",Beautiful Life TV
@@ -9671,6 +10005,10 @@ https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8
 https://vcp2.myplaytv.com/valetv/valetv/playlist.m3u8
 #EXTINF:-1 tvg-id="VenevisiónInternacional" tvg-name="Venevisión Internacional" tvg-country="ve" tvg-language="ve" group-title="Venezuela",Venevisión Internacional
 https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
+#EXTINF:-1 tvg-id="CBNGospel" tvg-name="CBN Gospel" tvg-country="vg" tvg-language="vg" group-title="Virgin Adaları Britanya",CBN Gospel
+https://59d39900ebfb8.streamlock.net/ccbn/ccbn/playlist.m3u8
+#EXTINF:-1 tvg-id="CBNTV" tvg-name="CBN TV" tvg-country="vg" tvg-language="vg" group-title="Virgin Adaları Britanya",CBN TV
+https://5790d294af2dc.streamlock.net/CBNVI/CBNVI/playlist.m3u8
 #EXTINF:-1 tvg-id="ANTV" tvg-name="ANTV" tvg-country="vn" tvg-language="vn" group-title="Vietnam",ANTV
 https://ott1.nethubtv.vn/live/antv/playlist.m3u8
 #EXTINF:-1 tvg-id="BacNinhTV" tvg-name="Bac Ninh TV" tvg-country="vn" tvg-language="vn" group-title="Vietnam",Bac Ninh TV
