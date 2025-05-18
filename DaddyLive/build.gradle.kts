@@ -13,7 +13,7 @@ android {
 cloudstream {
     authors     = listOf("GitLatte", "patr0nq")
     language    = "tr"
-    description = "DaddyLive Mor kanallar VPN olmadan ve Etkinlik kanalları. @keyiflerolsun Canlı TV eklentisinden yararlanılmıştır."
+    description = "DaddyLive Spor kanalları ve mümkün olduğucna VPN olmadan izletmek için 💪🏻💥"
 
     /**
      * Status int as the following:

@@ -16,7 +16,7 @@ class DaddyLive : MainAPI() {
         "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/dl/dl-daddyliveall.m3u", // ! Yeni listem
     )
     private val defaultPosterUrl      = "https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/referans/isimsizkanal.png"
-    override var name                 = "DaddyLive Mor Spor ve Events「📺」"
+    override var name                 = "DaddyLive Spor Kanalları「📺」"
     override val hasMainPage          = true
     override var lang                 = "tr"
     override val hasQuickSearch       = true
@@ -336,8 +336,7 @@ class IptvPlaylistParser {
             
             // group-title özniteliği için özel işlem
             if (key == "group-title") {
-                val mainGroup = value.split(",").firstOrNull()?.trim() ?: value
-                attributes[key] = mainGroup
+                attributes[key] = value.replaceQuotesAndTrim()
             } else {
                 attributes[key] = value.replaceQuotesAndTrim()
             }
