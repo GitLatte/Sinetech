@@ -5237,12 +5237,6 @@ https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8
 https://live.obslivestream.com/vivatv/index.m3u8
 #EXTINF:-1 tvg-id="TNTV" tvg-name="TNTV" tvg-country="pf" tvg-language="pf" group-title="Polinezya Fransa",TNTV
 https://bcovlive-a.akamaihd.net/34b9e8a6345d4ee8acb351730d1dbe89/us-west-2/5816339219001/playlist.m3u8
-#EXTINF:-1 tvg-id="A2Z" tvg-name="A2Z" tvg-country="ph" tvg-language="ph" group-title="Filipinler",A2Z
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5.m3u8
-#EXTINF:-1 tvg-id="CLTV36" tvg-name="CLTV 36" tvg-country="ph" tvg-language="ph" group-title="Filipinler",CLTV 36
-https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
-#EXTINF:-1 tvg-id="INCTV" tvg-name="INC TV" tvg-country="ph" tvg-language="ph" group-title="Filipinler",INC TV
-https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8
 #EXTINF:-1 tvg-id="DiscoverPakistan" tvg-name="Discover Pakistan" tvg-country="pk" tvg-language="pk" group-title="Pakistan",Discover Pakistan
 https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8
 #EXTINF:-1 tvg-id="DunyaNews(INTFeed)(1)" tvg-name="Dunya News (INT Feed) (1)" tvg-country="pk" tvg-language="pk" group-title="Pakistan",Dunya News (INT Feed) (1)
@@ -5517,64 +5511,6 @@ https://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8
 https://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8
 #EXTINF:-1 tvg-id="UnionTV" tvg-name="UnionTV" tvg-country="py" tvg-language="py" group-title="Paraguay",UnionTV
 https://tigocloud.desdeparaguay.net/800tv/800tv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlArabyTV(1)" tvg-name="Al Araby TV (1)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Araby TV (1)
-https://alarabyta.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="AlArabyTV(3)" tvg-name="Al Araby TV (3)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Araby TV (3)
-https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="AlArabyTV(4)" tvg-name="Al Araby TV (4)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Araby TV (4)
-https://origin-cae-t482536.cdn.nextologies.com/6837800d47c40cb2/1544c5accd8e84d5ALA2306/playlist.m3u8
-#EXTINF:-1 tvg-id="AlArabyTV2(1)" tvg-name="Al Araby TV 2 (1)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Araby TV 2 (1)
-https://alarabyta.cdn.octivid.com/alaraby2n/smil:alaraby2n.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="AlArabyTV2(3)" tvg-name="Al Araby TV 2 (3)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Araby TV 2 (3)
-https://alaraby.cdn.octivid.com/alaraby2n/smil:alaraby2n.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="AlArabyTV2(4)" tvg-name="Al Araby TV 2 (4)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Araby TV 2 (4)
-https://origin-cae-t482536.cdn.nextologies.com/63d8c759c5db83b4/25c4f89d27a79014ALA2306/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeera(1)" tvg-name="Al Jazeera (1)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera (1)
-https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeera(2)" tvg-name="Al Jazeera (2)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera (2)
-https://live-hls-apps-aja-v3-fa.getaj.net/AJA/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeera(3)" tvg-name="Al Jazeera (3)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera (3)
-https://live-hls-v3-aja.getaj.net/AJA-V3/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeera(4)" tvg-name="Al Jazeera (4)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera (4)
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeera(5)" tvg-name="Al Jazeera (5)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera (5)
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/al-jazeera/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraEnglish(1)" tvg-name="Al Jazeera English (1)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera English (1)
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/al-jazeera-english/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraEnglish(2)" tvg-name="Al Jazeera English (2)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera English (2)
-https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraEnglish(3)" tvg-name="Al Jazeera English (3)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera English (3)
-https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraEnglish(4)" tvg-name="Al Jazeera English (4)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera English (4)
-https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraEnglish(5)" tvg-name="Al Jazeera English (5)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera English (5)
-https://live-hls-web-aje.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraEnglish(6)" tvg-name="Al Jazeera English (6)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera English (6)
-https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasher(1)" tvg-name="Al Jazeera Mubasher (1)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera Mubasher (1)
-https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasher(2)" tvg-name="Al Jazeera Mubasher (2)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera Mubasher (2)
-https://live-hls-apps-ajm-v3-fa.getaj.net/AJM/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasher(3)" tvg-name="Al Jazeera Mubasher (3)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera Mubasher (3)
-https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasher24(1)" tvg-name="Al Jazeera Mubasher 24 (1)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera Mubasher 24 (1)
-https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasher24(2)" tvg-name="Al Jazeera Mubasher 24 (2)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera Mubasher 24 (2)
-https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasherBroadcast2(1)" tvg-name="Al Jazeera Mubasher Broadcast 2 (1)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera Mubasher Broadcast 2 (1)
-https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraMubasherBroadcast2(2)" tvg-name="Al Jazeera Mubasher Broadcast 2 (2)" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Jazeera Mubasher Broadcast 2 (2)
-https://live-hls-web-ajm2-fa.getaj.net/AJM2/index.m3u8
-#EXTINF:-1 tvg-id="AlMaaref" tvg-name="Al Maaref" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Maaref
-https://672a3a5c8e335.streamlock.net/AlMaaref/smil:almaareflive.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlRayyan" tvg-name="Al Rayyan" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Rayyan
-https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="AlRayyanAlQadeem" tvg-name="Al Rayyan Al Qadeem" tvg-country="qa" tvg-language="qa" group-title="Katar",Al Rayyan Al Qadeem
-https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="QatarTelevision2(1)" tvg-name="Qatar Television 2 (1)" tvg-country="qa" tvg-language="qa" group-title="Katar",Qatar Television 2 (1)
-https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="QatarTelevision2(2)" tvg-name="Qatar Television 2 (2)" tvg-country="qa" tvg-language="qa" group-title="Katar",Qatar Television 2 (2)
-https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8
 #EXTINF:-1 tvg-id="AgroTV" tvg-name="AgroTV" tvg-country="ro" tvg-language="ro" group-title="Romanya",AgroTV
 https://agrotv.streamnet.ro/mobile_tv/agrotv.m3u8
 #EXTINF:-1 tvg-id="AlephBusiness" tvg-name="Aleph Business" tvg-country="ro" tvg-language="ro" group-title="Romanya",Aleph Business
@@ -6657,30 +6593,6 @@ https://cdn10.live-tv.cloud/sferarv/sferarv-abr/playlist.m3u8
 https://ott.columbus.te.ua/ternopil1/index.m3u8
 #EXTINF:-1 tvg-id="Тюсо" tvg-name="Тюсо" tvg-country="ua" tvg-language="ua" group-title="Ukrayna",Тюсо
 https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua.m3u8
-#EXTINF:-1 tvg-id="3ABNTVUganda" tvg-name="3ABN TV Uganda" tvg-country="ug" tvg-language="ug" group-title="Uganda",3ABN TV Uganda
-https://3abn.bozztv.com/3abn/3abn_uganda_live/index.m3u8
-#EXTINF:-1 tvg-id="AlphaDigital" tvg-name="Alpha Digital" tvg-country="ug" tvg-language="ug" group-title="Uganda",Alpha Digital
-https://streamfi-alphatvdgtl1.zettawiseroutes.com:8181/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ArkTV" tvg-name="Ark TV" tvg-country="ug" tvg-language="ug" group-title="Uganda",Ark TV
-https://stream.hydeinnovations.com/arktv-international/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="BTV" tvg-name="BTV" tvg-country="ug" tvg-language="ug" group-title="Uganda",BTV
-https://streamfi-alphadgtl1.zettawiseroutes.com:8181/hls/stream.m3u8
-#EXTINF:-1 tvg-id="BukeddeTV1" tvg-name="Bukedde TV 1" tvg-country="ug" tvg-language="ug" group-title="Uganda",Bukedde TV 1
-https://stream.hydeinnovations.com/bukedde1flussonic/index.m3u8
-#EXTINF:-1 tvg-id="DreamTV" tvg-name="Dream TV" tvg-country="ug" tvg-language="ug" group-title="Uganda",Dream TV
-https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
-#EXTINF:-1 tvg-id="FORTTV" tvg-name="FORT TV" tvg-country="ug" tvg-language="ug" group-title="Uganda",FORT TV
-https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8
-#EXTINF:-1 tvg-id="GuguddeTV" tvg-name="Gugudde TV" tvg-country="ug" tvg-language="ug" group-title="Uganda",Gugudde TV
-https://jk3lzqq4lw79-hls-live.5centscdn.com/gugudde/c9a1fdac6e082dd89e7173244f34d7b3.sdp/chunks.m3u8
-#EXTINF:-1 tvg-id="PraiseJesusTowerTV" tvg-name="Praise Jesus Tower TV" tvg-country="ug" tvg-language="ug" group-title="Uganda",Praise Jesus Tower TV
-https://vsrv1.az-streamingserver.com:3555/live/dyjoqlgklive.m3u8
-#EXTINF:-1 tvg-id="SpiritTV" tvg-name="Spirit TV" tvg-country="ug" tvg-language="ug" group-title="Uganda",Spirit TV
-https://tv.tuhlprintltd.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TVWest" tvg-name="TV West" tvg-country="ug" tvg-language="ug" group-title="Uganda",TV West
-https://stream.hydeinnovations.com/tvwest-flussonic/index.m3u8
-#EXTINF:-1 tvg-id="WanLuoTV" tvg-name="Wan Luo TV" tvg-country="ug" tvg-language="ug" group-title="Uganda",Wan Luo TV
-https://stream.hydeinnovations.com/luotv-flussonic/index.m3u8
 #EXTINF:-1 tvg-id="21JumpStreet" tvg-name="21 Jump Street" tvg-country="uk" tvg-language="uk" group-title="Birleşik Krallık",21 Jump Street
 https://cb562753.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1XzIxSnVtcFN0cmVldF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="AdventureEarth" tvg-name="Adventure Earth" tvg-country="uk" tvg-language="uk" group-title="Birleşik Krallık",Adventure Earth
