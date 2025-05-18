@@ -96,7 +96,7 @@ class DaddyLive : MainAPI() {
 
     override suspend fun load(url: String): LoadResponse {
         val loadData = fetchDataFromUrlOrJson(url)
-        val nation = "» ${loadData.group} | ${loadData.nation} «"
+        val nation = "» ${loadData.group} grubundan | ${loadData.title} kanalı| ${loadData.nation} içerik «"
 
         val allChannels = mutableListOf<PlaylistItem>()
         mainUrls.forEach { url ->
@@ -134,7 +134,7 @@ class DaddyLive : MainAPI() {
         return newLiveStreamLoadResponse(loadData.title, loadData.url, url) {
             this.posterUrl = loadData.poster
             this.plot = nation
-            this.tags = listOf(loadData.group, loadData.nation)
+            this.tags = listOf(loadData.group, loadData.title, loadData.nation)
             this.recommendations = recommendations
         }
     }
