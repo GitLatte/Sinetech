@@ -96,10 +96,10 @@ class DaddyLive : MainAPI() {
 
     override suspend fun load(url: String): LoadResponse {
         val loadData = fetchDataFromUrlOrJson(url)
-        val nation = if (listOf("adult", "erotic", "erotik", "porn", "porno").any { loadData.group.contains(it, ignoreCase = true) }) {
-            "⚠️🔞🔞🔞 » ${loadData.group} | ${loadData.nation} « 🔞🔞🔞⚠️"
+        val plotText = if (listOf("adult", "erotic", "erotik", "porn", "porno").any { loadData.group.contains(it, ignoreCase = true) }) {
+            "⚠️🔞🔞🔞\nGrup: ${loadData.group}\nÜlke: ${loadData.nation}\nDil: ${loadData.nation}\n🔞🔞🔞⚠️"
         } else {
-            "» ${loadData.group} | ${loadData.nation} «"
+            "Grup: ${loadData.group}\nÜlke: ${loadData.nation}\nDil: ${loadData.nation}"
         }
 
         val allChannels = mutableListOf<PlaylistItem>()
@@ -137,7 +137,7 @@ class DaddyLive : MainAPI() {
 
         return newLiveStreamLoadResponse(loadData.title, loadData.url, url) {
             this.posterUrl = loadData.poster
-            this.plot = nation
+            this.plot = plotText
             this.tags = listOf(loadData.group, loadData.nation)
             this.recommendations = recommendations
         }
@@ -341,7 +341,7 @@ class IptvPlaylistParser {
                 // Virgülle ayrılmış grup başlıklarını işle
                 val groups = cleanedValue.split(",").map { it.trim() }
                 // İlk grup başlığını kullan
-                attributes[key] = groups.firstOrNull()?.takeIf { it.isNotEmpty() } ?: "Diğer"
+                attributes[key] = groups.firstOrNull()?.takeIf { it.isNotEmpty() } ?: "Diğer Kanallar"
             } else {
                 attributes[key] = value.replace("\"", "").trim()
             }
