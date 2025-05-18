@@ -8,7 +8,7 @@
 | [PowerDizi](powerDizi) | ![](https://img.shields.io/badge/version-3-blue) | [MIT](LICENSE) |
 | [PowerSinema](powerSinema) | ![](https://img.shields.io/badge/version-3-blue) | [MIT](LICENSE) |
 | [TvBahcesi](TvBahcesi) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
-| [DaddyLive](DaddyLive) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
+| [DaddyLive](DaddyLive) | ![](https://img.shields.io/badge/version-3-blue) | [MIT](LICENSE) |
 | [ToGrup](TOGrup) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
 | [WebDramaTurkey](WebDramaTurkey) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
 | [Youtube Canlı TV](YTCanliTV) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
