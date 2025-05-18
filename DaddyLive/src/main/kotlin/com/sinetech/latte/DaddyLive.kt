@@ -328,14 +328,21 @@ class IptvPlaylistParser {
         val attributesString = replace(extInfRegex, "").replaceQuotesAndTrim()
         val attributeRegex = Regex("([\\w-]+)=\"([^\"]*)\"|([\\w-]+)=([^\\s\"]+)")
         
-        return attributeRegex.findAll(attributesString)
-            .map { matchResult ->
-                val (key1, value1, key2, value2) = matchResult.destructured
-                val key = key1.ifEmpty { key2 }
-                val value = value1.ifEmpty { value2 }
-                key to value.replaceQuotesAndTrim()
+        val attributes = mutableMapOf<String, String>()
+        attributeRegex.findAll(attributesString).forEach { matchResult ->
+            val (key1, value1, key2, value2) = matchResult.destructured
+            val key = key1.ifEmpty { key2 }
+            val value = value1.ifEmpty { value2 }
+            
+            // group-title özniteliği için özel işlem
+            if (key == "group-title") {
+                val mainGroup = value.split(",").firstOrNull()?.trim() ?: value
+                attributes[key] = mainGroup
+            } else {
+                attributes[key] = value.replaceQuotesAndTrim()
             }
-            .toMap()
+        }
+        return attributes
     }
 
     private fun String.getTagValue(key: String): String? {
