@@ -96,7 +96,7 @@ class DaddyLive : MainAPI() {
 
     override suspend fun load(url: String): LoadResponse {
         val loadData = fetchDataFromUrlOrJson(url)
-        val nation = "» ${loadData.group} grubundan | ${loadData.title} kanalı| ${loadData.nation} içerik «"
+        val nation = "➕ Bilgiler: 📡 ${loadData.group} ┃ 📋 Kanal Adı: ${loadData.title} ┃ 🗣️ İçerik Dili: ${loadData.nation}"
 
         val allChannels = mutableListOf<PlaylistItem>()
         mainUrls.forEach { url ->
