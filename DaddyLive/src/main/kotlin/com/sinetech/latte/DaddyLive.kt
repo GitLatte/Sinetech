@@ -325,7 +325,7 @@ class IptvPlaylistParser {
 
     private fun String.getAttributes(): Map<String, String> {
         val extInfRegex = Regex("(#EXTINF:.?[0-9]+)", RegexOption.IGNORE_CASE)
-        val attributesString = replace(extInfRegex, "").replaceQuotesAndTrim()
+        val attributesString = replace(extInfRegex, "").trim()
         val attributeRegex = Regex("([\\w-]+)=\"([^\"]*)\"|([\\w-]+)=([^\\s\"]+)")
         
         val attributes = mutableMapOf<String, String>()
@@ -336,9 +336,14 @@ class IptvPlaylistParser {
             
             // group-title özniteliği için özel işlem
             if (key == "group-title") {
-                attributes[key] = value.replaceQuotesAndTrim()
+                // Tırnak işaretlerini ve fazladan boşlukları temizle
+                val cleanedValue = value.replace("\"", "").trim()
+                // Virgülle ayrılmış grup başlıklarını işle
+                val groups = cleanedValue.split(",").map { it.trim() }
+                // İlk grup başlığını kullan
+                attributes[key] = groups.firstOrNull()?.takeIf { it.isNotEmpty() } ?: "Diğer"
             } else {
-                attributes[key] = value.replaceQuotesAndTrim()
+                attributes[key] = value.replace("\"", "").trim()
             }
         }
         return attributes
