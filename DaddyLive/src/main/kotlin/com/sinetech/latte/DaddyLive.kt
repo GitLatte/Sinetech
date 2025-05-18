@@ -43,7 +43,7 @@ class DaddyLive : MainAPI() {
                     val channelname = kanal.title.toString()
                     val posterurl   = kanal.attributes["tvg-logo"]?.toString() ?: defaultPosterUrl
                     val chGroup     = kanal.attributes["group-title"].toString()
-                    val nation      = kanal.attributes["tvg-country"].toString()
+                    val nation      = kanal.attributes["tvg-language"].toString()
 
                     newLiveSearchResponse(
                         channelname,
@@ -78,7 +78,7 @@ class DaddyLive : MainAPI() {
             val channelname = kanal.title.toString()
             val posterurl   = kanal.attributes["tvg-logo"]?.toString() ?: defaultPosterUrl
             val chGroup     = kanal.attributes["group-title"].toString()
-            val nation      = kanal.attributes["tvg-country"].toString()
+            val nation      = kanal.attributes["tvg-language"].toString()
 
             newLiveSearchResponse(
                 channelname,
@@ -96,11 +96,7 @@ class DaddyLive : MainAPI() {
 
     override suspend fun load(url: String): LoadResponse {
         val loadData = fetchDataFromUrlOrJson(url)
-        val nation = if (listOf("adult", "erotic", "erotik", "porn", "porno").any { loadData.group.contains(it, ignoreCase = true) }) {
-            "⚠️🔞🔞🔞 » ${loadData.group} | ${loadData.nation} « 🔞🔞🔞⚠️"
-        } else {
-            "» ${loadData.group} | ${loadData.nation} «"
-        }
+        val nation = "» ${loadData.group} | ${loadData.nation} «"
 
         val allChannels = mutableListOf<PlaylistItem>()
         mainUrls.forEach { url ->
@@ -121,7 +117,7 @@ class DaddyLive : MainAPI() {
 
                 val rcPosterUrl   = kanal.attributes["tvg-logo"]?.toString() ?: defaultPosterUrl
                 val rcChGroup     = kanal.attributes["group-title"].toString()
-                val rcNation      = kanal.attributes["tvg-country"].toString()
+                val rcNation      = kanal.attributes["tvg-language"].toString()
 
                 recommendations.add(newLiveSearchResponse(
                     rcChannelName,
@@ -135,27 +131,10 @@ class DaddyLive : MainAPI() {
             }
         }
 
-        // Kanal detaylarını zenginleştirilmiş bir şekilde hazırla
-        val enrichedPlot = buildString {
-            append(nation)
-            loadData.quality?.let { append("\n📺 Kalite: $it") }
-            loadData.resolution?.let { append(" ($it)") }
-            loadData.language?.let { append("\n🗣 Dil: $it") }
-            loadData.description?.let { append("\n📝 Açıklama: $it") }
-            loadData.channelNumber?.let { append("\n🔢 Kanal No: $it") }
-            loadData.bandwidth?.let { append("\n📊 Bant Genişliği: $it") }
-            loadData.shift?.let { append("\n⏰ Zaman Farkı: $it") }
-        }
-
-        // Etiketleri genişlet
-        val enrichedTags = mutableListOf(loadData.group, loadData.nation)
-        loadData.quality?.let { enrichedTags.add(it) }
-        loadData.language?.let { enrichedTags.add(it) }
-
         return newLiveStreamLoadResponse(loadData.title, loadData.url, url) {
             this.posterUrl = loadData.poster
-            this.plot = enrichedPlot
-            this.tags = enrichedTags
+            this.plot = nation
+            this.tags = listOf(loadData.group, loadData.nation)
             this.recommendations = recommendations
         }
     }
@@ -205,23 +184,7 @@ class DaddyLive : MainAPI() {
         }
     }
 
-    data class LoadData(
-        val url: String,
-        val title: String,
-        val poster: String,
-        val group: String,
-        val nation: String,
-        val tvgId: String? = null,           // Kanal ID'si
-        val language: String? = null,        // Yayın dili
-        val shift: String? = null,           // Zaman dilimi kayması
-        val quality: String? = null,         // Yayın kalitesi (HD, FHD, 4K vb.)
-        val epgUrl: String? = null,          // Program rehberi URL'i
-        val description: String? = null,     // Kanal açıklaması
-        val resolution: String? = null,      // Yayın çözünürlüğü
-        val bandwidth: String? = null,       // Yayın bant genişliği
-        val channelNumber: String? = null,   // Kanal numarası
-        val isNsfw: Boolean = false          // Yetişkin içerik kontrolü
-    )
+    data class LoadData(val url: String, val title: String, val poster: String, val group: String, val nation: String)
 
     private suspend fun fetchDataFromUrlOrJson(data: String): LoadData {
         if (data.startsWith("{")) {
@@ -242,38 +205,9 @@ class DaddyLive : MainAPI() {
             val channelname = kanal.title.toString()
             val posterurl   = kanal.attributes["tvg-logo"]?.toString() ?: defaultPosterUrl
             val chGroup     = kanal.attributes["group-title"].toString()
-            val nation      = kanal.attributes["tvg-country"].toString()
-            val tvgId       = kanal.attributes["tvg-id"]?.toString()
-            val language    = kanal.attributes["tvg-language"]?.toString()
-            val shift       = kanal.attributes["tvg-shift"]?.toString()
-            val quality     = if (streamurl.contains("1080")) "FHD" 
-                              else if (streamurl.contains("720")) "HD"
-                              else if (streamurl.contains("4k") || streamurl.contains("4K")) "4K"
-                              else null
-            val epgUrl      = kanal.attributes["tvg-epg"]?.toString()
-            val description = kanal.attributes["tvg-desc"]?.toString()
-            val resolution  = kanal.attributes["tvg-resolution"]?.toString()
-            val bandwidth   = kanal.attributes["tvg-bandwidth"]?.toString()
-            val channelNum  = kanal.attributes["tvg-chno"]?.toString()
-            val isNsfw      = listOf("adult", "erotic", "erotik", "porn", "porno").any { chGroup.contains(it, ignoreCase = true) }
+            val nation      = kanal.attributes["tvg-language"].toString()
 
-            return LoadData(
-                url = streamurl,
-                title = channelname,
-                poster = posterurl,
-                group = chGroup,
-                nation = nation,
-                tvgId = tvgId,
-                language = language,
-                shift = shift,
-                quality = quality,
-                epgUrl = epgUrl,
-                description = description,
-                resolution = resolution,
-                bandwidth = bandwidth,
-                channelNumber = channelNum,
-                isNsfw = isNsfw
-            )
+            return LoadData(streamurl, channelname, posterurl, chGroup, nation)
         }
     }
 }
