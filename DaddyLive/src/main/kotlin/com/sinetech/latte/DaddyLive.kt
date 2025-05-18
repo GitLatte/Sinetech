@@ -13,8 +13,8 @@ class DaddyLive : MainAPI() {
     private val mainUrls = listOf(
         "https://raw.githubusercontent.com/GitLatte/patr0n/refs/heads/site/lists/daddy-alternatif2.m3u",
         "https://raw.githubusercontent.com/GitLatte/patr0n/refs/heads/site/lists/mor-alternatifler.m3u",
-        "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/dl/dl-daddyliveall.m3u",
-        // Buraya yeni m3u adreslerini eklenebilir
+        "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/dl/daddylive-all.m3u",
+       //* "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/dl/dl-daddyliveall.m3u", *//
     )
     private val defaultPosterUrl      = "https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/referans/isimsizkanal.png"
     override var name                 = "DaddyLive Mor Spor ve Events「📺」"
