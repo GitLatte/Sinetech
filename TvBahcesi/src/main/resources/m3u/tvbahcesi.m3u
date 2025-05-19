@@ -2627,312 +2627,6 @@ https://yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8
 https://yletvworld.akamaized.net/hls/live/622541/yletv2w/index.m3u8
 #EXTINF:-1 tvg-id="YLETVTeema&Fem" tvg-name="YLE TV Teema & Fem" tvg-country="fi" tvg-language="fi" group-title="Finlandiya",YLE TV Teema & Fem
 https://yletvworld.akamaized.net/hls/live/622547/yletvteemafemw/index.m3u8
-#EXTINF:-1 tvg-id="20MinutesTV" tvg-name="20 Minutes TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",20 Minutes TV
-https://lives.digiteka.com/stream/86d3e867-a272-496b-8412-f59aa0104771/index.m3u8
-#EXTINF:-1 tvg-id="100%Docs" tvg-name="100% Docs" tvg-country="fr" tvg-language="fr" group-title="Fransa",100% Docs
-https://amg02162-newenconnect-amg02162c2-rakuten-us-1981.playouts.now.amagi.tv/playlist/amg02162-newenconnect-100pour100docs-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="Africa24" tvg-name="Africa 24" tvg-country="fr" tvg-language="fr" group-title="Fransa",Africa 24
-https://edge12.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
-#EXTINF:-1 tvg-id="Africa24English" tvg-name="Africa 24 English" tvg-country="fr" tvg-language="fr" group-title="Fransa",Africa 24 English
-https://edge17.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-#EXTINF:-1 tvg-id="BanijayMrBeanAnimé" tvg-name="Banijay Mr Bean Animé" tvg-country="fr" tvg-language="fr" group-title="Fransa",Banijay Mr Bean Animé
-https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-id="BanijayMrBeanClassic" tvg-name="Banijay Mr Bean Classic" tvg-country="fr" tvg-language="fr" group-title="Fransa",Banijay Mr Bean Classic
-https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCDoctorWhoFrance" tvg-name="BBC Doctor Who France" tvg-country="fr" tvg-language="fr" group-title="Fransa",BBC Doctor Who France
-https://amg00793-amg00793c18-rakuten-fr-5360.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-drwhofrance-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCTopGearFrance" tvg-name="BBC Top Gear France" tvg-country="fr" tvg-language="fr" group-title="Fransa",BBC Top Gear France
-https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Beyblade" tvg-name="Beyblade" tvg-country="fr" tvg-language="fr" group-title="Fransa",Beyblade
-https://amg01796-amg01796c6-rakuten-fr-5334.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-beybladefr-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-id="BFMLyon(2)" tvg-name="BFM Lyon (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",BFM Lyon (2)
-https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
-#EXTINF:-1 tvg-id="BloombergTelevision" tvg-name="Bloomberg Television" tvg-country="fr" tvg-language="fr" group-title="Fransa",Bloomberg Television
-https://bloomberg-bloombergtv-6-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="BrefCinéma100%CourtMétrage" tvg-name="Bref Cinéma 100% Court Métrage" tvg-country="fr" tvg-language="fr" group-title="Fransa",Bref Cinéma 100% Court Métrage
-https://lagenceducourtmetrage-brefcinema-01-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="BrionnaisTV" tvg-name="Brionnais TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Brionnais TV
-https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
-#EXTINF:-1 tvg-id="CannesLérinsTV" tvg-name="Cannes Lérins TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Cannes Lérins TV
-https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
-#EXTINF:-1 tvg-id="DBM" tvg-name="DBM" tvg-country="fr" tvg-language="fr" group-title="Fransa",DBM
-https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
-#EXTINF:-1 tvg-id="DriveTV" tvg-name="Drive TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Drive TV
-https://amg01796-amg01796c2-rakuten-uk-3887.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ÈreTV" tvg-name="Ère TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Ère TV
-https://mn-nl.mncdn.com/awraastv/awraastv_hd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish(1)" tvg-name="Euronews English (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Euronews English (1)
-https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish(2)" tvg-name="Euronews English (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Euronews English (2)
-https://apollo.production-public.tubi.io/live/ac-euronews2.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish(3)" tvg-name="Euronews English (3)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Euronews English (3)
-https://streams.sofast.tv/euronewsen/live/eds/euronews-en/25017/euronews-en.m3u8
-#EXTINF:-1 tvg-id="FashionTV" tvg-name="Fashion TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Fashion TV
-https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FashionTVUHD" tvg-name="Fashion TV UHD" tvg-country="fr" tvg-language="fr" group-title="Fransa",Fashion TV UHD
-https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FashionTVEurope(1)" tvg-name="FashionTV Europe (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",FashionTV Europe (1)
-https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
-#EXTINF:-1 tvg-id="FashionTVEurope(2)" tvg-name="FashionTV Europe (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",FashionTV Europe (2)
-https://fashiontv-fashiontv-5-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FashionTVEurope(3)" tvg-name="FashionTV Europe (3)" tvg-country="fr" tvg-language="fr" group-title="Fransa",FashionTV Europe (3)
-https://fashiontv-fashiontv-5-se.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FIFA+France" tvg-name="FIFA+ France" tvg-country="fr" tvg-language="fr" group-title="Fransa",FIFA+ France
-https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="France24" tvg-name="France 24" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24
-https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="France24Arabic(1)" tvg-name="France 24 Arabic (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Arabic (1)
-https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="France24Arabic(2)" tvg-name="France 24 Arabic (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Arabic (2)
-https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="France24Arabic(3)" tvg-name="France 24 Arabic (3)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Arabic (3)
-https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_2300.m3u8
-#EXTINF:-1 tvg-id="France24Arabic(4)" tvg-name="France 24 Arabic (4)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Arabic (4)
-https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8
-#EXTINF:-1 tvg-id="France24Arabic(5)" tvg-name="France 24 Arabic (5)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Arabic (5)
-https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_900.m3u8
-#EXTINF:-1 tvg-id="France24Arabic(6)" tvg-name="France 24 Arabic (6)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Arabic (6)
-https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_900.m3u8
-#EXTINF:-1 tvg-id="France24Arabic(7)" tvg-name="France 24 Arabic (7)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Arabic (7)
-https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_500.m3u8
-#EXTINF:-1 tvg-id="France24Arabic(8)" tvg-name="France 24 Arabic (8)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Arabic (8)
-https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_500.m3u8
-#EXTINF:-1 tvg-id="France24Espanol" tvg-name="France 24 Espanol" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 Espanol
-https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="France24FASTEnglish" tvg-name="France 24 FAST English" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 FAST English
-https://amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/playlist/amg00106-france24fast-france24-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="France24French(1)" tvg-name="France 24 French (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 French (1)
-https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="France24French(2)" tvg-name="France 24 French (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 French (2)
-https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="France24French(3)" tvg-name="France 24 French (3)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 French (3)
-https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_2300.m3u8
-#EXTINF:-1 tvg-id="France24French(4)" tvg-name="France 24 French (4)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 French (4)
-https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_2300.m3u8
-#EXTINF:-1 tvg-id="France24French(5)" tvg-name="France 24 French (5)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 French (5)
-https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_900.m3u8
-#EXTINF:-1 tvg-id="France24French(6)" tvg-name="France 24 French (6)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 French (6)
-https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_900.m3u8
-#EXTINF:-1 tvg-id="France24French(7)" tvg-name="France 24 French (7)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 French (7)
-https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_500.m3u8
-#EXTINF:-1 tvg-id="France24French(8)" tvg-name="France 24 French (8)" tvg-country="fr" tvg-language="fr" group-title="Fransa",France 24 French (8)
-https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_500.m3u8
-#EXTINF:-1 tvg-id="FX2Farsi" tvg-name="FX2 Farsi" tvg-country="fr" tvg-language="fr" group-title="Fransa",FX2 Farsi
-https://toonixhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="HANDICAPTVFrance" tvg-name="HANDICAP TV France" tvg-country="fr" tvg-language="fr" group-title="Fransa",HANDICAP TV France
-https://srv.webtvmanager.fr:3697/stream/play.m3u8
-#EXTINF:-1 tvg-id="Homicidelachaînedufaitdivers" tvg-name="Homicide la chaîne du fait divers" tvg-country="fr" tvg-language="fr" group-title="Fransa",Homicide la chaîne du fait divers
-https://rakutenaa-fastmedia-homicide-rakuten-pw6g3.amagi.tv/playlist/rakutenAA-fastmedia-homicide-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="ITVUnVillageFrançais" tvg-name="ITV Un Village Français" tvg-country="fr" tvg-language="fr" group-title="Fransa",ITV Un Village Français
-https://amg00654-itv-amg00654c32-rakuten-fr-6134.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-unvillagesfrancais-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-id="KozoomTV" tvg-name="Kozoom TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Kozoom TV
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
-#EXTINF:-1 tvg-id="KTO" tvg-name="KTO" tvg-country="fr" tvg-language="fr" group-title="Fransa",KTO
-https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
-#EXTINF:-1 tvg-id="LEffetPapillon" tvg-name="L'Effet Papillon" tvg-country="fr" tvg-language="fr" group-title="Fransa",L'Effet Papillon
-https://amg02162-newenconnect-amg02162c1-rakuten-us-1983.playouts.now.amagi.tv/playlist/amg02162-newenconnect-leffetpapillon-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="LEquipeLive1" tvg-name="L'Equipe Live 1" tvg-country="fr" tvg-language="fr" group-title="Fransa",L'Equipe Live 1
-https://d3awaj0f2u3w26.cloudfront.net/4/media.m3u8
-#EXTINF:-1 tvg-id="LEquipeLive2" tvg-name="L'Equipe Live 2" tvg-country="fr" tvg-language="fr" group-title="Fransa",L'Equipe Live 2
-https://d2l55nvfkhk4sg.cloudfront.net/4/media.m3u8
-#EXTINF:-1 tvg-id="LCI" tvg-name="LCI" tvg-country="fr" tvg-language="fr" group-title="Fransa",LCI
-https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/btv/py/lci1.m3u8
-#EXTINF:-1 tvg-id="LeFigaroIDF(1)" tvg-name="Le Figaro IDF (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Le Figaro IDF (1)
-https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
-#EXTINF:-1 tvg-id="LeFigaroIDF(2)" tvg-name="Le Figaro IDF (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Le Figaro IDF (2)
-https://static.lefigaro.fr/secom/tnt.m3u8
-#EXTINF:-1 tvg-id="LeMeilleurdArthur" tvg-name="Le Meilleur d'Arthur" tvg-country="fr" tvg-language="fr" group-title="Fransa",Le Meilleur d'Arthur
-https://amg02393-awpg-amg02393c2-rakuten-uk-2464.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdarthur-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="LeMeilleurdelaTVRealite" tvg-name="Le Meilleur de la TV Realite" tvg-country="fr" tvg-language="fr" group-title="Fransa",Le Meilleur de la TV Realite
-https://amg02393-awpg-amg02393c4-rakuten-uk-3886.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdelatvrealite-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="LesAnges" tvg-name="Les Anges" tvg-country="fr" tvg-language="fr" group-title="Fransa",Les Anges
-https://amg02393-awpg-amg02393c5-rakuten-uk-2463.playouts.now.amagi.tv/playlist/amg02393-awpg-lesanges-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="LesSecretsdeNosRégions" tvg-name="Les Secrets de Nos Régions" tvg-country="fr" tvg-language="fr" group-title="Fransa",Les Secrets de Nos Régions
-https://amg02393-awpg-amg02393c6-rakuten-uk-2460.playouts.now.amagi.tv/playlist/amg02393-awpg-lessecretsdenosregions-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="LesZAmours" tvg-name="Les Z'Amours" tvg-country="fr" tvg-language="fr" group-title="Fransa",Les Z'Amours
-https://amg02393-awpg-amg02393c3-rakuten-uk-2462.playouts.now.amagi.tv/playlist/amg02393-awpg-leszamours-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="LittoralFM" tvg-name="Littoral FM" tvg-country="fr" tvg-language="fr" group-title="Fransa",Littoral FM
-https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="MotusLaChaîne" tvg-name="Motus La Chaîne" tvg-country="fr" tvg-language="fr" group-title="Fransa",Motus La Chaîne
-https://rakutenaa-fastmedia-motuslachaine-rakuten-547u3.amagi.tv/playlist/rakutenAA-fastmedia-motuslachaine-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="MuseumTV(1)" tvg-name="Museum TV (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Museum TV (1)
-https://rakutenaa-museumtv-fr-rakuten-nilyp.amagi.tv/playlist/rakutenAA-museumtv-fr-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="MuseumTV(2)" tvg-name="Museum TV (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Museum TV (2)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="MuseumTV(3)" tvg-name="Museum TV (3)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Museum TV (3)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="MuseumTVEnglish" tvg-name="Museum TV English" tvg-country="fr" tvg-language="fr" group-title="Fransa",Museum TV English
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-id="MyZenTV(1)" tvg-name="MyZen TV (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",MyZen TV (1)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
-#EXTINF:-1 tvg-id="MyZenTV(2)" tvg-name="MyZen TV (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",MyZen TV (2)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="MyZenWellbeingTV(French)" tvg-name="MyZen Wellbeing TV (French)" tvg-country="fr" tvg-language="fr" group-title="Fransa",MyZen Wellbeing TV (French)
-https://amg01492-secomsasmediart-myzen-fr-rakuten-spvgz.amagi.tv/hls/amagi_hls_data_rakutenAA-myzen-fr-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-id="NatureTimeFrance" tvg-name="Nature Time France" tvg-country="fr" tvg-language="fr" group-title="Fransa",Nature Time France
-https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NewsWorld" tvg-name="NewsWorld" tvg-country="fr" tvg-language="fr" group-title="Fransa",NewsWorld
-https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="P2MTV" tvg-name="P2M TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",P2M TV
-https://vdo2.pro-fhi.net:3207/stream/play.m3u8
-#EXTINF:-1 tvg-id="Persiana4Kurd" tvg-name="Persiana 4Kurd" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana 4Kurd
-https://4kuhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaCinema" tvg-name="Persiana Cinema" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Cinema
-https://cinehls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaComedy" tvg-name="Persiana Comedy" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Comedy
-https://comedyhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaFamily" tvg-name="Persiana Family" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Family
-https://familyhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaHD" tvg-name="Persiana HD" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana HD
-https://euhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaIranian" tvg-name="Persiana Iranian" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Iranian
-https://irhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaJunior" tvg-name="Persiana Junior" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Junior
-https://junhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaKorea" tvg-name="Persiana Korea" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Korea
-https://korhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaLatino" tvg-name="Persiana Latino" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Latino
-https://latinohls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaMusic" tvg-name="Persiana Music" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Music
-https://musichls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaNostalgia" tvg-name="Persiana Nostalgia" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Nostalgia
-https://noshls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaOne" tvg-name="Persiana One" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana One
-https://onehls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaRap" tvg-name="Persiana Rap" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Rap
-https://raphls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaScience" tvg-name="Persiana Science" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Science
-https://scihls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaSonnati" tvg-name="Persiana Sonnati" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Sonnati
-https://sonhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaTurkiye" tvg-name="Persiana Turkiye" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Turkiye
-https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaTwo" tvg-name="Persiana Two" tvg-country="fr" tvg-language="fr" group-title="Fransa",Persiana Two
-https://twohls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="QuiVeutGagnerDesMillionsLaChaîne" tvg-name="Qui Veut Gagner Des Millions La Chaîne" tvg-country="fr" tvg-language="fr" group-title="Fransa",Qui Veut Gagner Des Millions La Chaîne
-https://amg02393-awpg-amg02393c1-rakuten-uk-2461.playouts.now.amagi.tv/playlist/amg02393-awpg-quiveutgagnerdesmillions-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="QwestTV" tvg-name="Qwest TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Qwest TV
-https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-id="QwestTVJazz&Beyond" tvg-name="Qwest TV Jazz & Beyond" tvg-country="fr" tvg-language="fr" group-title="Fransa",Qwest TV Jazz & Beyond
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/qwestAAAA-qwestjazz-uk-samsungtv/playlist.m3u8
-#EXTINF:-1 tvg-id="QwestTV" tvg-name="QwestTV" tvg-country="fr" tvg-language="fr" group-title="Fransa",QwestTV
-https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="RakutenTVAlerteCobra" tvg-name="Rakuten TV Alerte Cobra" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Alerte Cobra
-https://alarm-for-cobra-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6477/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVDocumentariesFrance" tvg-name="Rakuten TV Documentaries France" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Documentaries France
-https://eb3687a0cdc54432b90a95543c0a6cbc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6224/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVFilmsAction" tvg-name="Rakuten TV Films Action" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Films Action
-https://01ac9352fbfa4204998783d41f9b1a2e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6068/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVFilmsComédie" tvg-name="Rakuten TV Films Comédie" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Films Comédie
-https://cc9f70371e7144e7acae4de8b5832d7a.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6183/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVFilmsDrames" tvg-name="Rakuten TV Films Drames" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Films Drames
-https://f396f4db84a54f7bb496b2541477b626.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6095/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVFilmsFamille" tvg-name="Rakuten TV Films Famille" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Films Famille
-https://b3088e48baab418a9a95dc8110a1b736.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6206/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVFilmsRomance" tvg-name="Rakuten TV Films Romance" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Films Romance
-https://9affb6144c4c4cdca25d58908cb55a64.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6195/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVSériesCrime" tvg-name="Rakuten TV Séries Crime" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Séries Crime
-https://1ffd245e4d30495e9b006502a155479e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6214/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVTheGuardian" tvg-name="Rakuten TV The Guardian" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV The Guardian
-https://the-guardian-3d0e32e7-aa40-49e5-b9d9-c433151fa61a-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6437/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVTopFilms" tvg-name="Rakuten TV Top Films" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Top Films
-https://93ed06eba1ef4cf783b66dc6ea7c4f28.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5986/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVVikiEurope" tvg-name="Rakuten TV Viki Europe" tvg-country="fr" tvg-language="fr" group-title="Fransa",Rakuten TV Viki Europe
-https://newidco-rakutenviki-2-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RevryEurope(Frequencybackend)" tvg-name="Revry Europe (Frequency backend)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Revry Europe (Frequency backend)
-https://03e7e5beea1d42fea576037d67f531eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_Revry/playlist.m3u8
-#EXTINF:-1 tvg-id="RevryNewsEurope(Frequencybackend)" tvg-name="Revry News Europe (Frequency backend)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Revry News Europe (Frequency backend)
-https://dce9e10d279f410d87ef5ad1c3740459.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_RevryNews/playlist.m3u8
-#EXTINF:-1 tvg-id="RMCDécouverte" tvg-name="RMC Découverte" tvg-country="fr" tvg-language="fr" group-title="Fransa",RMC Découverte
-https://d2mt8for1pddy4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6uronj7gzvy4j/index.m3u8
-#EXTINF:-1 tvg-id="RMCStory" tvg-name="RMC Story" tvg-country="fr" tvg-language="fr" group-title="Fransa",RMC Story
-https://d36bxc1bknkxrk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3ewcp19zjaxpt/index.m3u8
-#EXTINF:-1 tvg-id="RTFrance(1)" tvg-name="RT France (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",RT France (1)
-https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
-#EXTINF:-1 tvg-id="RTFrance(2)" tvg-name="RT France (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",RT France (2)
-https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
-#EXTINF:-1 tvg-id="SportEnFrance(1)" tvg-name="Sport En France (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Sport En France (1)
-https://sp1564435593.mytvchain.info/live/sp1564435593/index.m3u8
-#EXTINF:-1 tvg-id="SportEnFrance(2)" tvg-name="Sport En France (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Sport En France (2)
-https://sp1564435593.mytvchain.info/live/sp1564435593_720/index.m3u8
-#EXTINF:-1 tvg-id="SportEnFrance(3)" tvg-name="Sport En France (3)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Sport En France (3)
-https://sp1564435593.mytvchain.info/live/sp1564435593_360/index.m3u8
-#EXTINF:-1 tvg-id="StormcastNovelasTV" tvg-name="Stormcast Novelas TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Stormcast Novelas TV
-https://stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TéléGohelle" tvg-name="TéléGohelle" tvg-country="fr" tvg-language="fr" group-title="Fransa",TéléGohelle
-https://videas.agglo-lenslievin.fr/index.m3u8
-#EXTINF:-1 tvg-id="TelevisaTelenovelaChannel" tvg-name="Televisa Telenovela Channel" tvg-country="fr" tvg-language="fr" group-title="Fransa",Televisa Telenovela Channel
-https://televisa-telenovelas-3-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TF1" tvg-name="TF1" tvg-country="fr" tvg-language="fr" group-title="Fransa",TF1
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tf1.m3u8
-#EXTINF:-1 tvg-id="TFX" tvg-name="TFX" tvg-country="fr" tvg-language="fr" group-title="Fransa",TFX
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tfx.m3u8
-#EXTINF:-1 tvg-id="TMC" tvg-name="TMC" tvg-country="fr" tvg-language="fr" group-title="Fransa",TMC
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/tf1plus/tmc.m3u8
-#EXTINF:-1 tvg-id="TRACEBrazuca" tvg-name="TRACE Brazuca" tvg-country="fr" tvg-language="fr" group-title="Fransa",TRACE Brazuca
-https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TRACELatina(1)" tvg-name="TRACE Latina (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",TRACE Latina (1)
-https://amg01131-tracetv-amg01131c3-stirr-us-4391.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TRACELatina(2)" tvg-name="TRACE Latina (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",TRACE Latina (2)
-https://amg01131-tracetv-tracelatina-klowdtv-v10em.amagi.tv/playlist/amg01131-tracetv-tracelatina-klowdtv/playlist.m3u8
-#EXTINF:-1 tvg-id="TRACELatina(3)" tvg-name="TRACE Latina (3)" tvg-country="fr" tvg-language="fr" group-title="Fransa",TRACE Latina (3)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracelatinait-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="TRACELatina(4)" tvg-name="TRACE Latina (4)" tvg-country="fr" tvg-language="fr" group-title="Fransa",TRACE Latina (4)
-https://amg01131-tracetv-tracelatina-glewed-vtnk7.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceSportStars(Australia)" tvg-name="Trace Sport Stars (Australia)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Trace Sport Stars (Australia)
-https://amg01131-tracetv-amg01131c2-stirr-us-4392.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban" tvg-name="Trace Urban" tvg-country="fr" tvg-language="fr" group-title="Fransa",Trace Urban
-https://amg01131-tracetv-amg01131c1-rakuten-us-1081.playouts.now.amagi.tv/playlist/amg01131-tracetvfast-traceurban-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban(Australia)(1)" tvg-name="Trace Urban (Australia) (1)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Trace Urban (Australia) (1)
-https://amg01131-tracetv-amg01131c1-stirr-us-4393.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban(Australia)(2)" tvg-name="Trace Urban (Australia) (2)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Trace Urban (Australia) (2)
-https://amg01131-tracetv-traceurban-klowdtv-utiqd.amagi.tv/playlist/amg01131-tracetv-traceurban-klowdtv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban(Australia)(3)" tvg-name="Trace Urban (Australia) (3)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Trace Urban (Australia) (3)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01131-tracetv-traceurbanit-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban(Australia)(4)" tvg-name="Trace Urban (Australia) (4)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Trace Urban (Australia) (4)
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban(Australia)(5)" tvg-name="Trace Urban (Australia) (5)" tvg-country="fr" tvg-language="fr" group-title="Fransa",Trace Urban (Australia) (5)
-https://amg01131-tracetv-traceurban-glewed-g705j.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TravelxpFrance" tvg-name="Travelxp France" tvg-country="fr" tvg-language="fr" group-title="Fransa",Travelxp France
-https://travelxp-travelxp-4-fr.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVFinance" tvg-name="TV Finance" tvg-country="fr" tvg-language="fr" group-title="Fransa",TV Finance
-https://strhlslb01.streamakaci.tv/str_tvfinance_tvfinance/str_tvfinance_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="TV5MondeStyle" tvg-name="TV5Monde Style" tvg-country="fr" tvg-language="fr" group-title="Fransa",TV5Monde Style
-https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
-#EXTINF:-1 tvg-id="TV78" tvg-name="TV78" tvg-country="fr" tvg-language="fr" group-title="Fransa",TV78
-https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
-#EXTINF:-1 tvg-id="UniversCinéLeMeilleurduCinéma" tvg-name="UniversCiné Le Meilleur du Cinéma" tvg-country="fr" tvg-language="fr" group-title="Fransa",UniversCiné Le Meilleur du Cinéma
-https://amg01259-lemeilleurducin-universcine-rakuten-bifrz.amagi.tv/hls/amagi_hls_data_rakutenAA-universcine-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-id="VevoHipHopetRnB" tvg-name="Vevo Hip-Hop et RnB" tvg-country="fr" tvg-language="fr" group-title="Fransa",Vevo Hip-Hop et RnB
-https://amg00056-amg00056c14-rakuten-fr-3244.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevohiphopandrbfr-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-id="ViàMatélé" tvg-name="ViàMatélé" tvg-country="fr" tvg-language="fr" group-title="Fransa",ViàMatélé
-https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8
-#EXTINF:-1 tvg-id="viàTéléPaese" tvg-name="viàTéléPaese" tvg-country="fr" tvg-language="fr" group-title="Fransa",viàTéléPaese
-https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
-#EXTINF:-1 tvg-id="VosgesTélévision" tvg-name="Vosges Télévision" tvg-country="fr" tvg-language="fr" group-title="Fransa",Vosges Télévision
-https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
-#EXTINF:-1 tvg-id="Wasabilachaîneanime" tvg-name="Wasabi la chaîne anime" tvg-country="fr" tvg-language="fr" group-title="Fransa",Wasabi la chaîne anime
-https://amg01796-amg01796c3-rakuten-uk-2555.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-wasabii-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="WildsideTV" tvg-name="Wildside TV" tvg-country="fr" tvg-language="fr" group-title="Fransa",Wildside TV
-https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XilamTV" tvg-name="XilamTV" tvg-country="fr" tvg-language="fr" group-title="Fransa",XilamTV
-https://xilam-animation-1-fr.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="YaQueLaVéritéQuiCompteLaChaîne" tvg-name="Y'a Que La Vérité Qui Compte La Chaîne" tvg-country="fr" tvg-language="fr" group-title="Fransa",Y'a Que La Vérité Qui Compte La Chaîne
-https://rakutenaa-fastmedia-yaquelaverite-rakuten-81p2x.amagi.tv/playlist/rakutenAA-fastmedia-yaquelaverite-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeOne" tvg-name="Zee One" tvg-country="fr" tvg-language="fr" group-title="Fransa",Zee One
-https://87e3eec452134557a82da031f54a1899.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-fr_ZeeMagic/playlist.m3u8
-#EXTINF:-1 tvg-id="ZyloCinéNanar" tvg-name="Zylo Ciné Nanar" tvg-country="fr" tvg-language="fr" group-title="Fransa",Zylo Ciné Nanar
-https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZyloCinéWestern" tvg-name="Zylo Ciné Western" tvg-country="fr" tvg-language="fr" group-title="Fransa",Zylo Ciné Western
-https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="ZyloEmotionL" tvg-name="Zylo Emotion' L" tvg-country="fr" tvg-language="fr" group-title="Fransa",Zylo Emotion' L
-https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="ZyloFréquenceNovelas" tvg-name="Zylo Fréquence Novelas" tvg-country="fr" tvg-language="fr" group-title="Fransa",Zylo Fréquence Novelas
-https://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="ZyloIntoCrime" tvg-name="Zylo Into Crime" tvg-country="fr" tvg-language="fr" group-title="Fransa",Zylo Into Crime
-https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZyloScreamIN" tvg-name="Zylo ScreamIN" tvg-country="fr" tvg-language="fr" group-title="Fransa",Zylo ScreamIN
-https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="1TV" tvg-name="1TV" tvg-country="ge" tvg-language="ge" group-title="GE",1TV
 https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8
 #EXTINF:-1 tvg-id="2TV" tvg-name="2TV" tvg-country="ge" tvg-language="ge" group-title="GE",2TV
@@ -3103,8 +2797,6 @@ https://5ca9af4645e15.streamlock.net/mayas/videomayas/playlist.m3u8
 https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8
 #EXTINF:-1 tvg-id="VisiónTV" tvg-name="Visión TV" tvg-country="gt" tvg-language="gt" group-title="Guatemala",Visión TV
 https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8
-#EXTINF:-1 tvg-id="Star101FM(KNUTGuam)" tvg-name="Star 101 FM (KNUT Guam)" tvg-country="gu" tvg-language="gu" group-title="GU",Star 101 FM (KNUT Guam)
-https://live2.tensila.com/knut-v-1.choice/hls/master.m3u8
 #EXTINF:-1 tvg-id="HGPTV" tvg-name="HGPTV" tvg-country="gy" tvg-language="gy" group-title="Guyana",HGPTV
 https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/ABR1080v1/streams/284fce39-4456-2c6b-414a-1d41a03d17dd_1080p2500kbps.m3u8
 #EXTINF:-1 tvg-id="MTVGuyana" tvg-name="MTV Guyana" tvg-country="gy" tvg-language="gy" group-title="Guyana",MTV Guyana
@@ -3119,82 +2811,6 @@ https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV35(港台電視35)" tvg-name="RTHK TV 35 (港台電視35)" tvg-country="hk" tvg-language="hk" group-title="Hong Kong",RTHK TV 35 (港台電視35)
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
-#EXTINF:-1 tvg-id="ActivaTV" tvg-name="Activa TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Activa TV
-https://videoserver.tmcreativos.com:19360/mbcrtzxnxd/mbcrtzxnxd.m3u8
-#EXTINF:-1 tvg-id="AlsaciasTelevisión(ATV|Canal28)" tvg-name="Alsacias Televisión (ATV | Canal 28)" tvg-country="hn" tvg-language="hn" group-title="Honduras",Alsacias Televisión (ATV | Canal 28)
-https://s.emisoras.tv:8081/atv/index.m3u8
-#EXTINF:-1 tvg-id="Canal11" tvg-name="Canal 11" tvg-country="hn" tvg-language="hn" group-title="Honduras",Canal 11
-https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal15DTP" tvg-name="Canal 15 DTP" tvg-country="hn" tvg-language="hn" group-title="Honduras",Canal 15 DTP
-https://s.emisoras.tv:8081/dtp/index.m3u8
-#EXTINF:-1 tvg-id="CholutecaTV" tvg-name="Choluteca TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Choluteca TV
-https://s.emisoras.tv:8081/cholutecatv/index.m3u8
-#EXTINF:-1 tvg-id="CTVInternacional" tvg-name="CTV Internacional" tvg-country="hn" tvg-language="hn" group-title="Honduras",CTV Internacional
-https://mediacp.us:8081/ctvhn/index.m3u8
-#EXTINF:-1 tvg-id="DiosTeVe" tvg-name="Dios Te Ve" tvg-country="hn" tvg-language="hn" group-title="Honduras",Dios Te Ve
-https://s.emisoras.tv:8081/diostevetv/index.m3u8
-#EXTINF:-1 tvg-id="DiosTeVeKids" tvg-name="Dios Te Ve Kids" tvg-country="hn" tvg-language="hn" group-title="Honduras",Dios Te Ve Kids
-https://s.emisoras.tv:8081/diostevekids/index.m3u8
-#EXTINF:-1 tvg-id="EbenezerTV" tvg-name="Ebenezer TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Ebenezer TV
-https://5e85d90130e77.streamlock.net/6010/ngrp:6010_all/playlist.m3u8
-#EXTINF:-1 tvg-id="GirasolTV" tvg-name="Girasol TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Girasol TV
-https://video.misistemareseller.com/Girasoltv/Girasoltv/playlist.m3u8
-#EXTINF:-1 tvg-id="JBN" tvg-name="JBN" tvg-country="hn" tvg-language="hn" group-title="Honduras",JBN
-https://mediacp.us:8081/jbntv/index.m3u8
-#EXTINF:-1 tvg-id="JehováTV" tvg-name="Jehová TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Jehová TV
-https://video.misistemareseller.com/jehovatelevision/jehovatelevision/playlist.m3u8
-#EXTINF:-1 tvg-id="KerussoTV" tvg-name="Kerusso TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Kerusso TV
-https://s.emisoras.tv:8081/kerussotv/index.m3u8
-#EXTINF:-1 tvg-id="LaTop1029" tvg-name="La Top 102.9" tvg-country="hn" tvg-language="hn" group-title="Honduras",La Top 102.9
-https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
-#EXTINF:-1 tvg-id="LaTop1077" tvg-name="La Top 107.7" tvg-country="hn" tvg-language="hn" group-title="Honduras",La Top 107.7
-https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
-#EXTINF:-1 tvg-id="LencaTelevisionCanal40" tvg-name="Lenca Television Canal 40" tvg-country="hn" tvg-language="hn" group-title="Honduras",Lenca Television Canal 40
-https://lencatelevision.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="LTV" tvg-name="LTV" tvg-country="hn" tvg-language="hn" group-title="Honduras",LTV
-https://5e85d90130e77.streamlock.net/6022/6022/playlist.m3u8
-#EXTINF:-1 tvg-id="MetroTV" tvg-name="Metro TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Metro TV
-https://s.emisoras.tv:8081/metrotv/index.m3u8
-#EXTINF:-1 tvg-id="ParadiseTV" tvg-name="Paradise TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Paradise TV
-https://s2.tvdatta.com:3840/live/paradisetvlive.m3u8
-#EXTINF:-1 tvg-id="PuringlaTV" tvg-name="Puringla TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Puringla TV
-https://stmv1.srvif.com/puringla/puringla/playlist.m3u8
-#EXTINF:-1 tvg-id="QhuboTV" tvg-name="Q'hubo TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",Q'hubo TV
-https://5e85d90130e77.streamlock.net/6024/6024/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioIdeal1047FM(LaEsperanza)" tvg-name="Radio Ideal 104.7 FM (La Esperanza)" tvg-country="hn" tvg-language="hn" group-title="Honduras",Radio Ideal 104.7 FM (La Esperanza)
-https://www.idealfm104-7.com/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="RadioImagen1051FM" tvg-name="Radio Imagen 105.1 FM" tvg-country="hn" tvg-language="hn" group-title="Honduras",Radio Imagen 105.1 FM
-https://streaming.imagenfm105-1.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RCVTV" tvg-name="RCV TV" tvg-country="hn" tvg-language="hn" group-title="Honduras",RCV TV
-https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8
-#EXTINF:-1 tvg-id="Telerayo" tvg-name="Telerayo" tvg-country="hn" tvg-language="hn" group-title="Honduras",Telerayo
-https://s.emisoras.tv:8081/telerayo/index.m3u8
-#EXTINF:-1 tvg-id="TelevisiónComayaguaCanal40" tvg-name="Televisión Comayagua Canal 40" tvg-country="hn" tvg-language="hn" group-title="Honduras",Televisión Comayagua Canal 40
-https://mediacp.us:8081/8034/index.m3u8
-#EXTINF:-1 tvg-id="TelevisiónMetrópolis192" tvg-name="Televisión Metrópolis 19.2" tvg-country="hn" tvg-language="hn" group-title="Honduras",Televisión Metrópolis 19.2
-https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCentro272HD" tvg-name="TV Centro 27.2 HD" tvg-country="hn" tvg-language="hn" group-title="Honduras",TV Centro 27.2 HD
-https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCopán" tvg-name="TV Copán" tvg-country="hn" tvg-language="hn" group-title="Honduras",TV Copán
-https://s.emisoras.tv:8081/tvcopan/index.m3u8
-#EXTINF:-1 tvg-id="WaldivisiónInternacional" tvg-name="Waldivisión Internacional" tvg-country="hn" tvg-language="hn" group-title="Honduras",Waldivisión Internacional
-https://cloud5.streaminglivehd.com:3114/live/tnnhonduraslive.m3u8
-#EXTINF:-1 tvg-id="Bravo!TV" tvg-name="Bravo! TV" tvg-country="hr" tvg-language="hr" group-title="Hırvatistan",Bravo! TV
-https://streaming.social3.hr/bravoTVkdjd7djd/XAbSERW5p3/2.m3u8
-#EXTINF:-1 tvg-id="CMCTV" tvg-name="CMC TV" tvg-country="hr" tvg-language="hr" group-title="Hırvatistan",CMC TV
-https://stream.cmctv.hr:49998/cmc/live.m3u8
-#EXTINF:-1 tvg-id="ExtraTV" tvg-name="Extra TV" tvg-country="hr" tvg-language="hr" group-title="Hırvatistan",Extra TV
-https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8
-#EXTINF:-1 tvg-id="KlapeiTambureTV" tvg-name="Klape i Tambure TV" tvg-country="hr" tvg-language="hr" group-title="Hırvatistan",Klape i Tambure TV
-https://stream.cmctv.hr:49998/kit/live.m3u8
-#EXTINF:-1 tvg-id="LibertasTV" tvg-name="Libertas TV" tvg-country="hr" tvg-language="hr" group-title="Hırvatistan",Libertas TV
-https://stream.luci.xyz/hls/LTV.m3u8
-#EXTINF:-1 tvg-id="SBTV" tvg-name="SBTV" tvg-country="hr" tvg-language="hr" group-title="Hırvatistan",SBTV
-https://live.leveex.hr/hls/live.m3u8
-#EXTINF:-1 tvg-id="TVJadran" tvg-name="TV Jadran" tvg-country="hr" tvg-language="hr" group-title="Hırvatistan",TV Jadran
-https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
-#EXTINF:-1 tvg-id="TVNova" tvg-name="TV Nova" tvg-country="hr" tvg-language="hr" group-title="Hırvatistan",TV Nova
-https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 #EXTINF:-1 tvg-id="HaitiNewsChannel" tvg-name="Haiti News Channel" tvg-country="ht" tvg-language="ht" group-title="Haiti",Haiti News Channel
 https://haititivi.com/website/haitinews/index.m3u8
 #EXTINF:-1 tvg-id="KajouTV" tvg-name="Kajou TV" tvg-country="ht" tvg-language="ht" group-title="Haiti",Kajou TV
@@ -3405,34 +3021,6 @@ https://d33zah5htxvoxb.cloudfront.net/el/live/dail/hls.m3u8
 https://d33zah5htxvoxb.cloudfront.net/el/live/seanad/hls.m3u8
 #EXTINF:-1 tvg-id="TG4" tvg-name="TG4" tvg-country="ie" tvg-language="ie" group-title="İrlanda",TG4
 https://dx4452e0qv6r9.cloudfront.net/tg4_vod_national.m3u8
-#EXTINF:-1 tvg-id="HalaTV" tvg-name="Hala TV" tvg-country="il" tvg-language="il" group-title="İsrail",Hala TV
-https://stream.panet.com/edge/halaTV/playlist.m3u8
-#EXTINF:-1 tvg-id="Hidabroot" tvg-name="Hidabroot" tvg-country="il" tvg-language="il" group-title="İsrail",Hidabroot
-https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8
-#EXTINF:-1 tvg-id="I24NewsArabic" tvg-name="I24 News Arabic" tvg-country="il" tvg-language="il" group-title="İsrail",I24 News Arabic
-https://bcovlive-a.akamaihd.net/95116e8d79524d87bf3ac20ba04241e3/eu-central-1/5377161796001/playlist.m3u8
-#EXTINF:-1 tvg-id="I24NewsEnglish" tvg-name="I24 News English" tvg-country="il" tvg-language="il" group-title="İsrail",I24 News English
-https://bcovlive-a.akamaihd.net/ecf224f43f3b43e69471a7b626481af0/eu-central-1/5377161796001/playlist.m3u8
-#EXTINF:-1 tvg-id="I24NewsFrench" tvg-name="I24 News French" tvg-country="il" tvg-language="il" group-title="İsrail",I24 News French
-https://bcovlive-a.akamaihd.net/41814196d97e433fb401c5e632d985e9/eu-central-1/5377161796001/playlist.m3u8
-#EXTINF:-1 tvg-id="I24NewsHebrew" tvg-name="I24 News Hebrew" tvg-country="il" tvg-language="il" group-title="İsrail",I24 News Hebrew
-https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/playlist.m3u8
-#EXTINF:-1 tvg-id="KabbalahforthePeople(Israel)" tvg-name="Kabbalah for the People (Israel)" tvg-country="il" tvg-language="il" group-title="İsrail",Kabbalah for the People (Israel)
-https://edge3.uk.kab.tv/live/tv66-heb-high/playlist.m3u8
-#EXTINF:-1 tvg-id="KAN11Israel(1)" tvg-name="KAN 11 Israel (1)" tvg-country="il" tvg-language="il" group-title="İsrail",KAN 11 Israel (1)
-https://kan11w.media.kan.org.il/hls/live/2105694/2105694/master.m3u8
-#EXTINF:-1 tvg-id="KAN11Israel(2)" tvg-name="KAN 11 Israel (2)" tvg-country="il" tvg-language="il" group-title="İsrail",KAN 11 Israel (2)
-https://kan11.media.kan.org.il/hls/live/2024514/2024514/master.m3u8
-#EXTINF:-1 tvg-id="KanKids" tvg-name="Kan Kids" tvg-country="il" tvg-language="il" group-title="İsrail",Kan Kids
-https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
-#EXTINF:-1 tvg-id="Makan33" tvg-name="Makan 33" tvg-country="il" tvg-language="il" group-title="İsrail",Makan 33
-https://makan.media.kan.org.il/hls/live/2024680/2024680/master.m3u8
-#EXTINF:-1 tvg-id="RanTVIsrael" tvg-name="Ran TV Israel" tvg-country="il" tvg-language="il" group-title="İsrail",Ran TV Israel
-https://streaminglive.co.il:3730/live/raniamranilive.m3u8
-#EXTINF:-1 tvg-id="Reshet13" tvg-name="Reshet 13" tvg-country="il" tvg-language="il" group-title="İsrail",Reshet 13
-https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
-#EXTINF:-1 tvg-id="ShelanuTV" tvg-name="Shelanu TV" tvg-country="il" tvg-language="il" group-title="İsrail",Shelanu TV
-https://1247634592.rsc.cdn77.org/1247634592/playlist.m3u8
 #EXTINF:-1 tvg-id="9xJhakaas" tvg-name="9x Jhakaas" tvg-country="in" tvg-language="in" group-title="Hindistan",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-id="9XTashan" tvg-name="9X Tashan" tvg-country="in" tvg-language="in" group-title="Hindistan",9X Tashan
@@ -4535,42 +4123,10 @@ https://suborotv.hibridcdn.net/suborotv/suborotv_abr/playlist.m3u8
 https://cdn.catiacast.video/abr/ed8f807e2548db4507d2a6f4ba0c4a06/playlist.m3u8
 #EXTINF:-1 tvg-id="VoiceofLebanon" tvg-name="Voice of Lebanon" tvg-country="lb" tvg-language="lb" group-title="Libanon",Voice of Lebanon
 https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CaribbeanHot7TV" tvg-name="Caribbean Hot 7 TV" tvg-country="lc" tvg-language="lc" group-title="Saint Lucia",Caribbean Hot 7 TV
-https://586a9edea75f1.streamlock.net/caribbeanhot7tv/ch7-1.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="HiruTV" tvg-name="Hiru TV" tvg-country="lk" tvg-language="lk" group-title="Sri Lanka",Hiru TV
-https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8
-#EXTINF:-1 tvg-id="ITN" tvg-name="ITN" tvg-country="lk" tvg-language="lk" group-title="Sri Lanka",ITN
-https://222103-hls.akamaized.net/668828a00bf80aa436254876/live_aabd3d003af211efadcf7986aa245789/rewind-3600.m3u8
-#EXTINF:-1 tvg-id="SiyathaTV" tvg-name="Siyatha TV" tvg-country="lk" tvg-language="lk" group-title="Sri Lanka",Siyatha TV
-https://rtmp01.voaplus.com/hls/6x6ik312qk4grfxocfcv.m3u8
-#EXTINF:-1 tvg-id="Swarnavahini" tvg-name="Swarnavahini" tvg-country="lk" tvg-language="lk" group-title="Sri Lanka",Swarnavahini
-https://jk3lz8xklw79-hls-live.5centscdn.com/live/6226f7cbe59e99a90b5cef6f94f966fd.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="VasanthamTV" tvg-name="Vasantham TV" tvg-country="lk" tvg-language="lk" group-title="Sri Lanka",Vasantham TV
-https://222103-hls.akamaized.net/668828a00bf80aa436254876/live_2cdb4ef03c1311efadcf7986aa245789/rewind-3600.m3u8
 #EXTINF:-1 tvg-id="LRTLituanica" tvg-name="LRT Lituanica" tvg-country="lt" tvg-language="lt" group-title="Litvanya",LRT Lituanica
 https://stream-live.lrt.lt/lituanica/stream03/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="M1" tvg-name="M-1" tvg-country="lt" tvg-language="lt" group-title="Litvanya",M-1
 https://m-1.data.lt/m-1/smil:m-1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="apartTV" tvg-name="apart TV" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",apart TV
-https://2-fss-2.streamhoster.com/pl_124/206820-4338160-1/playlist.m3u8
-#EXTINF:-1 tvg-id="ChamberTV" tvg-name="Chamber TV" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",Chamber TV
-https://media02.webtvlive.eu/chd-edge/smil:chamber_tv_hd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="DudelangeTV" tvg-name="Dudelange TV" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",Dudelange TV
-https://streamer20.multimedia.blue/Eltrona/DudelangeTV/playlist.m3u8
-#EXTINF:-1 tvg-id="eldoTV" tvg-name="eldo.TV" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",eldo.TV
-https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8
-#EXTINF:-1 tvg-id="HesperTV" tvg-name="Hesper TV" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",Hesper TV
-https://streamer20.multimedia.blue/Eltrona/HesperangeTV/playlist.m3u8
-#EXTINF:-1 tvg-id="MamerTV" tvg-name="Mamer TV" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",Mamer TV
-https://streamer20.multimedia.blue/Eltrona/MamerTV/playlist.m3u8
-#EXTINF:-1 tvg-id="MierschTV" tvg-name="MierschTV" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",MierschTV
-https://streamer20.multimedia.blue/Eltrona/merschTV/playlist.m3u8
-#EXTINF:-1 tvg-id="PétangeInfoTV" tvg-name="Pétange Info TV" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",Pétange Info TV
-https://streamer20.multimedia.blue/Eltrona/PetangeTV/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLGold" tvg-name="RTL Gold" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",RTL Gold
-https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLTodayRadio" tvg-name="RTL Today Radio" tvg-country="lu" tvg-language="lu" group-title="Luxemburg",RTL Today Radio
-https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
 #EXTINF:-1 tvg-id="LatvijasRadio3Klasika" tvg-name="Latvijas Radio 3 Klasika" tvg-country="lv" tvg-language="lv" group-title="Letonya",Latvijas Radio 3 Klasika
 https://5a44e5b800a41.streamlock.net/liveVLR3/mp4:Klasika/playlist.m3u8
 #EXTINF:-1 tvg-id="ReTV" tvg-name="Re TV" tvg-country="lv" tvg-language="lv" group-title="Letonya",Re TV
@@ -4591,36 +4147,6 @@ https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u
 https://amsart-live.ercdn.net/salamtv/salamtv.m3u8
 #EXTINF:-1 tvg-id="TanasuhTV" tvg-name="Tanasuh TV" tvg-country="ly" tvg-language="ly" group-title="Libya",Tanasuh TV
 https://tip.stream.tanasuh.tv:4434/live/smil:tanasuhtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlAoulaInternational" tvg-name="Al Aoula International" tvg-country="ma" tvg-language="ma" group-title="Marokko",Al Aoula International
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="AlAoulaLaâyoune" tvg-name="Al Aoula Laâyoune" tvg-country="ma" tvg-language="ma" group-title="Marokko",Al Aoula Laâyoune
-https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="AlMaghribia" tvg-name="Al Maghribia" tvg-country="ma" tvg-language="ma" group-title="Marokko",Al Maghribia
-https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="Arryadia" tvg-name="Arryadia" tvg-country="ma" tvg-language="ma" group-title="Marokko",Arryadia
-https://cdn.live.easybroadcast.io/abr_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="Assadissa" tvg-name="Assadissa" tvg-country="ma" tvg-language="ma" group-title="Marokko",Assadissa
-https://cdn.live.easybroadcast.io/abr_corp/73_assadissa_7b7u5n1/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="Athaqafia" tvg-name="Athaqafia" tvg-country="ma" tvg-language="ma" group-title="Marokko",Athaqafia
-https://cdn.live.easybroadcast.io/abr_corp/73_arrabia_hthcj4p/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="ChadaTV(1)" tvg-name="Chada TV (1)" tvg-country="ma" tvg-language="ma" group-title="Marokko",Chada TV (1)
-https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8
-#EXTINF:-1 tvg-id="ChadaTV(2)" tvg-name="Chada TV (2)" tvg-country="ma" tvg-language="ma" group-title="Marokko",Chada TV (2)
-https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8
-#EXTINF:-1 tvg-id="Medi1TVAfrique(1)" tvg-name="Medi 1 TV Afrique (1)" tvg-country="ma" tvg-language="ma" group-title="Marokko",Medi 1 TV Afrique (1)
-https://streaming1.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Medi1TVAfrique(2)" tvg-name="Medi 1 TV Afrique (2)" tvg-country="ma" tvg-language="ma" group-title="Marokko",Medi 1 TV Afrique (2)
-https://streaming2.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Medi1TVArabic(1)" tvg-name="Medi 1 TV Arabic (1)" tvg-country="ma" tvg-language="ma" group-title="Marokko",Medi 1 TV Arabic (1)
-https://streaming1.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Medi1TVArabic(2)" tvg-name="Medi 1 TV Arabic (2)" tvg-country="ma" tvg-language="ma" group-title="Marokko",Medi 1 TV Arabic (2)
-https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Medi1TVMaghreb(1)" tvg-name="Medi 1 TV Maghreb (1)" tvg-country="ma" tvg-language="ma" group-title="Marokko",Medi 1 TV Maghreb (1)
-https://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Medi1TVMaghreb(2)" tvg-name="Medi 1 TV Maghreb (2)" tvg-country="ma" tvg-language="ma" group-title="Marokko",Medi 1 TV Maghreb (2)
-https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Tamazight" tvg-name="Tamazight" tvg-country="ma" tvg-language="ma" group-title="Marokko",Tamazight
-https://cdn.live.easybroadcast.io/abr_corp/73_tamazight_tccybxt/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="MonacoInfo" tvg-name="Monaco Info" tvg-country="mc" tvg-language="mc" group-title="Monako",Monaco Info
 https://webtv.monacoinfo.com/live/prod/index.m3u8
 #EXTINF:-1 tvg-id="SuperyachtTV" tvg-name="Superyacht TV" tvg-country="mc" tvg-language="mc" group-title="Monako",Superyacht TV
@@ -4647,28 +4173,6 @@ https://skyfolk.mk/live.m3u8
 https://live.muzickatv.mk/live/StarMusic.m3u8
 #EXTINF:-1 tvg-id="StarPlusMusic" tvg-name="Star Plus Music" tvg-country="mk" tvg-language="mk" group-title="Makedonya",Star Plus Music
 https://live.muzickatv.mk/live/StarMusic2.m3u8
-#EXTINF:-1 tvg-id="5Plus" tvg-name="5 Plus" tvg-country="mm" tvg-language="mm" group-title="Myanmar",5 Plus
-https://5a13fe32ef748.streamlock.net/mmplay/5plus/playlist.m3u8
-#EXTINF:-1 tvg-id="Channel7(1)" tvg-name="Channel 7 (1)" tvg-country="mm" tvg-language="mm" group-title="Myanmar",Channel 7 (1)
-https://pplive.comquas.com:5443/LiveApp/streams/CLcBFN71NkF61709008601656.m3u8
-#EXTINF:-1 tvg-id="Channel7(2)" tvg-name="Channel 7 (2)" tvg-country="mm" tvg-language="mm" group-title="Myanmar",Channel 7 (2)
-https://5a13fe32ef748.streamlock.net/mmplay/channel7/playlist.m3u8
-#EXTINF:-1 tvg-id="MCS" tvg-name="MCS" tvg-country="mm" tvg-language="mm" group-title="Myanmar",MCS
-https://l1-xl1.myanmarnet.com/relay2/mcs/ch1/stream.m3u8
-#EXTINF:-1 tvg-id="MITV" tvg-name="MITV" tvg-country="mm" tvg-language="mm" group-title="Myanmar",MITV
-https://5a13fe32ef748.streamlock.net/mmplay/mitv/playlist.m3u8
-#EXTINF:-1 tvg-id="MNTV" tvg-name="MN TV" tvg-country="mm" tvg-language="mm" group-title="Myanmar",MN TV
-https://l1-xl1.myanmarnet.com/relay/mntv/ch1/stream.m3u8
-#EXTINF:-1 tvg-id="MRTV" tvg-name="MRTV" tvg-country="mm" tvg-language="mm" group-title="Myanmar",MRTV
-https://5a13fe32ef748.streamlock.net/mmplay/mrtv/playlist.m3u8
-#EXTINF:-1 tvg-id="MRTV4(1)" tvg-name="MRTV 4 (1)" tvg-country="mm" tvg-language="mm" group-title="Myanmar",MRTV 4 (1)
-https://pplive.comquas.com:5443/LiveApp/streams/w3g3EYjBtqgJ1677679288037.m3u8
-#EXTINF:-1 tvg-id="MRTV4(2)" tvg-name="MRTV 4 (2)" tvg-country="mm" tvg-language="mm" group-title="Myanmar",MRTV 4 (2)
-https://5a13fe32ef748.streamlock.net/mmplay/mrtv-4/playlist.m3u8
-#EXTINF:-1 tvg-id="MRTVEntertainment" tvg-name="MRTV Entertainment" tvg-country="mm" tvg-language="mm" group-title="Myanmar",MRTV Entertainment
-https://5a13fe32ef748.streamlock.net/mmplay/mrtv-entertainment/playlist.m3u8
-#EXTINF:-1 tvg-id="MRTVParliament" tvg-name="MRTV Parliament" tvg-country="mm" tvg-language="mm" group-title="Myanmar",MRTV Parliament
-https://5a13fe32ef748.streamlock.net/mmplay/hluttaw/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTVMongoliaHD" tvg-name="Bloomberg TV Mongolia HD" tvg-country="mn" tvg-language="mn" group-title="Mongolya",Bloomberg TV Mongolia HD
 https://cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8
 #EXTINF:-1 tvg-id="C1" tvg-name="C1" tvg-country="mn" tvg-language="mn" group-title="Mongolya",C1
@@ -4721,8 +4225,6 @@ https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
 https://vdo2.pro-fhi.net:3769/stream/play.m3u8
 #EXTINF:-1 tvg-id="TVFamille" tvg-name="TV Famille" tvg-country="mq" tvg-language="mq" group-title="Martinik",TV Famille
 https://streamer1.streamhost.org/salive/GMItvfh/playlist.m3u8
-#EXTINF:-1 tvg-id="One" tvg-name="One" tvg-country="mt" tvg-language="mt" group-title="Malta",One
-https://2-fss-1.streamhoster.com/pl_148/201830-1293592-1/playlist.m3u8
 #EXTINF:-1 tvg-id="MMTV" tvg-name="MMTV" tvg-country="mv" tvg-language="mv" group-title="Maldivler",MMTV
 https://sendlive.online/hls/mmtv.m3u8
 #EXTINF:-1 tvg-id="SSTV" tvg-name="SSTV" tvg-country="mv" tvg-language="mv" group-title="Maldivler",SSTV
@@ -5283,10 +4785,6 @@ https://videoserver.tmcreativos.com:19360/cablerasvia/cablerasvia.m3u8
 https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8
 #EXTINF:-1 tvg-id="VivaTVYurimaguas" tvg-name="Viva TV Yurimaguas" tvg-country="pe" tvg-language="pe" group-title="Peru",Viva TV Yurimaguas
 https://live.obslivestream.com/vivatv/index.m3u8
-#EXTINF:-1 tvg-id="TNTV(1)" tvg-name="TNTV (1)" tvg-country="pf" tvg-language="pf" group-title="Polinezya Fransa",TNTV (1)
-https://tntv-samsung-fr.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TNTV(2)" tvg-name="TNTV (2)" tvg-country="pf" tvg-language="pf" group-title="Polinezya Fransa",TNTV (2)
-https://bcovlive-a.akamaihd.net/34b9e8a6345d4ee8acb351730d1dbe89/us-west-2/5816339219001/playlist.m3u8
 #EXTINF:-1 tvg-id="A2Z" tvg-name="A2Z" tvg-country="ph" tvg-language="ph" group-title="Filipinler",A2Z
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5.m3u8
 #EXTINF:-1 tvg-id="CLTV36" tvg-name="CLTV 36" tvg-country="ph" tvg-language="ph" group-title="Filipinler",CLTV 36
@@ -6037,28 +5535,6 @@ https://shls-live-mood-ak.akamaized.net/out/v1/90143f040feb40589d18c57863d9e829/
 https://al-ekhbaria-prod-dub.shahid.net/out/v1/ef87956651694f4ba2ccc16e852dbb95/index.m3u8
 #EXTINF:-1 tvg-id="SudanTV" tvg-name="Sudan TV" tvg-country="sd" tvg-language="sd" group-title="SD",Sudan TV
 https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8
-#EXTINF:-1 tvg-id="AryenTV" tvg-name="Aryen TV" tvg-country="se" tvg-language="se" group-title="İsveç",Aryen TV
-https://aryen.tv/live/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergTV+" tvg-name="Bloomberg TV+" tvg-country="se" tvg-language="se" group-title="İsveç",Bloomberg TV+
-https://bloomberg-bloombergtv-3-se.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="DiTV" tvg-name="Di TV" tvg-country="se" tvg-language="se" group-title="İsveç",Di TV
-https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8
-#EXTINF:-1 tvg-id="ExpressenTV" tvg-name="Expressen TV" tvg-country="se" tvg-language="se" group-title="İsveç",Expressen TV
-https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
-#EXTINF:-1 tvg-id="KomalaTV" tvg-name="Komala TV" tvg-country="se" tvg-language="se" group-title="İsveç",Komala TV
-https://live.tvkomala.com/live/komala/playlist.m3u8
-#EXTINF:-1 tvg-id="LifeStyleTV" tvg-name="LifeStyleTV" tvg-country="se" tvg-language="se" group-title="İsveç",LifeStyleTV
-https://app.viloud.tv/hls/channel/711fd3f3a4728449889ee22ba72958ff.m3u8
-#EXTINF:-1 tvg-id="MiracleChannel" tvg-name="Miracle Channel" tvg-country="se" tvg-language="se" group-title="İsveç",Miracle Channel
-https://miracle.stream.boxigy.com/hls/miracle1.m3u8
-#EXTINF:-1 tvg-id="MiracleTV" tvg-name="Miracle TV" tvg-country="se" tvg-language="se" group-title="İsveç",Miracle TV
-https://live.miraclechannel.com/hls/miracle1.m3u8
-#EXTINF:-1 tvg-id="MissionAsia" tvg-name="Mission Asia" tvg-country="se" tvg-language="se" group-title="İsveç",Mission Asia
-https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MyzenFit" tvg-name="Myzen Fit" tvg-country="se" tvg-language="se" group-title="İsveç",Myzen Fit
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungse/playlist.m3u8
-#EXTINF:-1 tvg-id="Waterbear" tvg-name="Waterbear" tvg-country="se" tvg-language="se" group-title="İsveç",Waterbear
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-samsungse/playlist.m3u8
 #EXTINF:-1 tvg-id="CNAInternational" tvg-name="CNA International" tvg-country="sg" tvg-language="sg" group-title="Singapur",CNA International
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 tvg-id="ZooMoo(Australia)(1)" tvg-name="Zoo Moo (Australia) (1)" tvg-country="sg" tvg-language="sg" group-title="Singapur",Zoo Moo (Australia) (1)
@@ -6073,26 +5549,6 @@ https://584943999.r.worldssl.net/584943999/_definst_/vzivo/playlist.m3u8
 https://584943999.r.worldssl.net/584943999/vzivo/playlist.m3u8
 #EXTINF:-1 tvg-id="SIPTV" tvg-name="SIP TV" tvg-country="si" tvg-language="si" group-title="Slovenya",SIP TV
 https://data.siptv.si/live-siptv/hls/index.m3u8
-#EXTINF:-1 tvg-id="ducktv(1)" tvg-name="ducktv (1)" tvg-country="sk" tvg-language="sk" group-title="Slovakya",ducktv (1)
-https://mmm-dk.otteravision.com/DexaYJdJXkLqFxTK_DuckTVHDSAMS/DuckTVHDSAMS.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="LifeTv" tvg-name="LifeTv" tvg-country="sk" tvg-language="sk" group-title="Slovakya",LifeTv
-https://lifetv.mpks.sk/s.m3u8
-#EXTINF:-1 tvg-id="MarkizaKlasik" tvg-name="Markiza Klasik" tvg-country="sk" tvg-language="sk" group-title="Slovakya",Markiza Klasik
-https://cdnsk003.panaccess.com/local/Markiza_Klasik/index.m3u8
-#EXTINF:-1 tvg-id="MarkizaKrimi" tvg-name="Markiza Krimi" tvg-country="sk" tvg-language="sk" group-title="Slovakya",Markiza Krimi
-https://cdnsk003.panaccess.com/local/Markiza_krimi/index.m3u8
-#EXTINF:-1 tvg-id="MTR" tvg-name="MTR" tvg-country="sk" tvg-language="sk" group-title="Slovakya",MTR
-https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8
-#EXTINF:-1 tvg-id="TelevíziaMočenok" tvg-name="Televízia Močenok" tvg-country="sk" tvg-language="sk" group-title="Slovakya",Televízia Močenok
-https://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCentral" tvg-name="TV Central" tvg-country="sk" tvg-language="sk" group-title="Slovakya",TV Central
-https://arenasportslovakia.ddns.net/hls/cetv2.m3u8
-#EXTINF:-1 tvg-id="TVDK" tvg-name="TV DK" tvg-country="sk" tvg-language="sk" group-title="Slovakya",TV DK
-https://5ca49f2417d90.streamlock.net/live/dolnykubin1/playlist.m3u8
-#EXTINF:-1 tvg-id="TVNRSR" tvg-name="TV NRSR" tvg-country="sk" tvg-language="sk" group-title="Slovakya",TV NRSR
-https://n11.stv.livebox.sk/stv-tv/stv4.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVT" tvg-name="TVT" tvg-country="sk" tvg-language="sk" group-title="Slovakya",TVT
-https://5ca49f2417d90.streamlock.net/live/turzovka/playlist.m3u8
 #EXTINF:-1 tvg-id="SanMarinoRTV" tvg-name="San Marino RTV" tvg-country="sm" tvg-language="sm" group-title="San Marino",San Marino RTV
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="SanMarinoRTVSport" tvg-name="San Marino RTV Sport" tvg-country="sm" tvg-language="sm" group-title="San Marino",San Marino RTV Sport
