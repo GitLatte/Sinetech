@@ -1,4 +1,4 @@
-version = 3
+version = 2
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
@@ -13,7 +13,7 @@ android {
 cloudstream {
     authors     = listOf("GitLatte", "patr0nq")
     language    = "tr"
-    description = "DaddyLive Spor kanalları ve mümkün olduğunca VPN olmadan izletmek için 💪🏻💥"
+    description = "DaddyLive Events içerikşerini ve mümkün olduğunca VPN olmadan izletmek için 💪🏻💥"
 
     /**
      * Status int as the following:
@@ -24,5 +24,5 @@ cloudstream {
     **/
     status  = 1 // will be 3 if unspecified
     tvTypes = listOf("Live")
-    iconUrl = "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png"
+    iconUrl = "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-events.png"
 }

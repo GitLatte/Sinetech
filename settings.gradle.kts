@@ -5,6 +5,8 @@ include(
     "powerSinema",
     "TvBahcesi",
     "DaddyLive",
+    "DaddyLiveEvents",
+    "DaddyLiveVPN",
     "DDizi",
     "WebDramaTurkey",
     "YTEglence",

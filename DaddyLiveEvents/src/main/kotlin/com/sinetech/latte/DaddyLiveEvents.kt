@@ -7,14 +7,12 @@ import com.lagradost.cloudstream3.utils.AppUtils.parseJson
 import com.lagradost.cloudstream3.utils.AppUtils.toJson
 import java.io.InputStream
 
-class DaddyLive : MainAPI() {
+class DaddyLiveEvents : MainAPI() {
     private val mainUrls = listOf(
-     //*   "https://raw.githubusercontent.com/GitLatte/patr0n/refs/heads/site/lists/daddy-alternatif2.m3u", *// Lazım olursa
-     //*   "https://raw.githubusercontent.com/GitLatte/patr0n/refs/heads/site/lists/mor-alternatifler.m3u", *// Lazım olursa
-        "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/dl/dl-daddyliveall.m3u", // ! Yeni listem
+        "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/dl/daddyliveevents.m3u",
     )
     private val defaultPosterUrl      = "https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/referans/isimsizkanal.png"
-    override var name                 = "DaddyLive Spor Kanalları「📺」"
+    override var name                 = "DaddyLive Events「📺」"
     override val hasMainPage          = true
     override var lang                 = "tr"
     override val hasQuickSearch       = true
@@ -29,7 +27,7 @@ class DaddyLive : MainAPI() {
                 val kanallar = IptvPlaylistParser().parseM3U(app.get(url).text)
                 allChannels.addAll(kanallar.items)
             } catch (e: Exception) {
-                Log.e("DaddyLive", "Error loading M3U from $url: ${e.message}")
+                Log.e("DaddyLiveEvents", "Error loading M3U from $url: ${e.message}")
             }
         }
 
@@ -67,7 +65,7 @@ class DaddyLive : MainAPI() {
                 val kanallar = IptvPlaylistParser().parseM3U(app.get(url).text)
                 allChannels.addAll(kanallar.items)
             } catch (e: Exception) {
-                Log.e("DaddyLive", "Error loading M3U from $url: ${e.message}")
+                Log.e("DaddyLiveEvents", "Error loading M3U from $url: ${e.message}")
             }
         }
 
@@ -102,7 +100,7 @@ class DaddyLive : MainAPI() {
                 val kanallar = IptvPlaylistParser().parseM3U(app.get(url).text)
                 allChannels.addAll(kanallar.items)
             } catch (e: Exception) {
-                Log.e("DaddyLive", "Error loading M3U from $url: ${e.message}")
+                Log.e("DaddyLiveEvents", "Error loading M3U from $url: ${e.message}")
             }
         }
         
@@ -148,7 +146,7 @@ class DaddyLive : MainAPI() {
                     val kanallar = IptvPlaylistParser().parseM3U(app.get(url).text)
                     allChannels.addAll(kanallar.items)
                 } catch (e: Exception) {
-                    Log.e("DaddyLive", "Error loading M3U from $url: ${e.message}")
+                    Log.e("DaddyLiveEvents", "Error loading M3U from $url: ${e.message}")
                 }
             }
             val kanal = allChannels.firstOrNull { it.url == loadData.url } ?: return false
@@ -194,7 +192,7 @@ class DaddyLive : MainAPI() {
                     val kanallar = IptvPlaylistParser().parseM3U(app.get(url).text)
                     allChannels.addAll(kanallar.items)
                 } catch (e: Exception) {
-                    Log.e("DaddyLive", "Error loading M3U from $url: ${e.message}")
+                    Log.e("DaddyLiveEvents", "Error loading M3U from $url: ${e.message}")
                 }
             }
             val kanal = allChannels.first { it.url == data }

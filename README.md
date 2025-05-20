@@ -17,6 +17,8 @@
 | [KickTR](KickTR) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
 | [myWayTV](myWayTV) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
 | [AniworldMC](AniworldMC) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
+| [DaddyLiveEvents](DaddyLive) | ![](https://img.shields.io/badge/version-2-red) | [MIT](LICENSE) |
+| [DaddyLiveVPN](DaddyLive) | ![](https://img.shields.io/badge/version-1-orange) | [MIT](LICENSE) |
 
 ---
 
