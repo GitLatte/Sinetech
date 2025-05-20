@@ -20,7 +20,7 @@ import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
 
 class YTEglence : MainAPI() {
-    override var mainUrl = "https://iv.ggtyler.dev"
+    override var mainUrl = "yewtu.be" //* "https://iv.ggtyler.dev" yedek *//
     override var name = "Youtube Eğlence İçerikleri「🎭」"
     override var lang = "tr"
     override val hasMainPage = true
