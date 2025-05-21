@@ -36,6 +36,8 @@ subprojects {
 
     cloudstream {
         setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/GitLatte/Sinetech")
+
+        authors = listOf("GitLatte")
     }
 
     android {
@@ -74,7 +76,7 @@ subprojects {
         implementation("org.jsoup:jsoup:1.18.3")
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.0")
         implementation("com.fasterxml.jackson.core:jackson-databind:2.16.0")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     }
 }
 
