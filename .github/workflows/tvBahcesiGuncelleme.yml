@@ -110,16 +110,19 @@ jobs:
 
           python generate_m3u.py
 
-      - name: Commit and push if changed
+            - name: Commit and push if changed
         run: |
           git remote set-url origin https://${{ secrets.ACTIONHELPER }}@github.com/${{ github.repository }}
-          git pull origin main
+          git pull origin main # En son değişiklikleri çek
+          git config --local user.email "actionhelper@users.noreply.github.com" # ActionHelper'ın e-postası (Genellikle format budur)
+          git config --local user.name "ActionHelper" # ActionHelper'ın kullanıcı adı
+
           git add TvBahcesi/src/main/resources/m3u/tvbahcesi.m3u
           git commit -m "♻️ Tv Bahçesi listesi güncellendi (Otomatik)" || exit 0
-          
+
           if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
-            echo "Yerel branch ileride, değişiklikleri push yapılıyor..." # Türkçe açıklama
+            echo "Yerel branch ileride, değişiklikleri push yapılıyor."
             git push origin main
           else
-            echo "Yerel branch ile remote branch aynı, push gerekmiyor." # Türkçe açıklama
+            echo "Yerel branch ile remote branch aynı, push gerekmiyor."
           fi
