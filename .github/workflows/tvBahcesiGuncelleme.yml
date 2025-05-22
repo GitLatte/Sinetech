@@ -3,7 +3,7 @@ name: TV Bahçesi Listesini Güncelle!
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'  # Her 2 saatte bir çalışır
+    - cron: '0 */2 * * *'
   push:
     paths:
       - 'TvBahcesi/src/main/kotlin/com/sinetech/latte/TvBahcesi.kt'
@@ -11,9 +11,14 @@ on:
 jobs:
   generate-m3u:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+           token: ${{ secrets.ACTIONHELPER }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -25,7 +30,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: M3u dosyasını oluştur
+      - name: Generate M3u File
         run: |
           cat > generate_m3u.py << 'EOL'
           import json
@@ -37,14 +42,12 @@ jobs:
               channels = []
               
               try:
-                  # Önce dizindeki tüm JSON dosyalarının listesini al
                   index_url = "https://api.github.com/repos/TVGarden/tv-garden-channel-list/contents/channels/raw/countries"
                   response = requests.get(index_url)
                   if response.status_code == 200:
                       files = response.json()
                       country_files = [file['name'] for file in files if file['name'].endswith('.json')]
                       
-                      # Her ülke dosyası için kanalları al
                       for country_file in country_files:
                           country_url = f"{base_url}/{country_file}"
                           response = requests.get(country_url)
@@ -97,7 +100,6 @@ jobs:
               if channels:
                   m3u_content = generate_m3u(channels)
                   
-                  # M3U dosyasını kaydet
                   os.makedirs('TvBahcesi/src/main/resources/m3u', exist_ok=True)
                   with open('TvBahcesi/src/main/resources/m3u/tvbahcesi.m3u', 'w', encoding='utf-8') as f:
                       f.write(m3u_content)
@@ -110,9 +112,14 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git remote set-url origin https://${{ secrets.ACTIONHELPER }}@github.com/${{ github.repository }}
           git pull origin main
           git add TvBahcesi/src/main/resources/m3u/tvbahcesi.m3u
-          git commit -m "♻️ Tv Bahçesi listesi güncellendi" || exit 0
-          git push origin main
+          git commit -m "♻️ Tv Bahçesi listesi güncellendi (Otomatik)" || exit 0
+          
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
+            echo "Yerel branch ileride, değişiklikleri push yapılıyor..." # Türkçe açıklama
+            git push origin main
+          else
+            echo "Yerel branch ile remote branch aynı, push gerekmiyor." # Türkçe açıklama
+          fi
