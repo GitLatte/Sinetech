@@ -23,7 +23,7 @@ jobs:
       - name: Depoyu Checkout Et
         uses: actions/checkout@v4
         with:
-           token: ${{ secrets.GITHUB_TOKEN }}
+           token: ${{ secrets.ACTIONHELPER }}
 
       - name: Python Kurulumu
         uses: actions/setup-python@v5
@@ -50,7 +50,7 @@ jobs:
       - name: Değişiklikleri Commit Et ve PR Oluştur
         if: steps.check_changes.outputs.changes == 'true'
         env:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           GITHUB_TOKEN: ${{ secrets.ACTIONHELPER }}
            REPO_OWNER: ${{ github.repository_owner }}
            REPO_NAME: ${{ github.event.repository.name }}
            BASE_BRANCH: master # veya main
@@ -70,7 +70,7 @@ jobs:
           git push origin $BRANCH_NAME --force
 
           echo "Pull Request oluşturuluyor..."
-          curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
+          curl -X POST -H "Authorization: token $ACTIONHELPER" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/pulls \
             -d @- <<EOF
