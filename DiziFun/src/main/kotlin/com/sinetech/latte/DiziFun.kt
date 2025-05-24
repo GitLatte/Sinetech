@@ -23,6 +23,10 @@ class DiziFun : MainAPI() {
     override val hasDownloadSupport = true
     override val supportedTypes = setOf(TvType.TvSeries, TvType.Movie)
 
+    override var sequentialMainPage = true 
+    override var sequentialMainPageDelay       = 50L
+    override var sequentialMainPageScrollDelay = 50L
+
     override val mainPage = mainPageOf(
         // === ANA SAYFA BÖLÜMLERİ ===
         "yeni_diziler" to "Yeni Eklenen Diziler",
