@@ -1,4 +1,4 @@
-version = 2 // domain değişikliği
+version = 3 // oynatıcı düzenlemesi ve yeni sisteme geçiş
 
 cloudstream {
     authors     = listOf("GitLatte", "patr0nq")
@@ -7,5 +7,5 @@ cloudstream {
 
     status  = 1
     tvTypes = listOf("TvSeries", "Movie")
-    iconUrl = "https://www.google.com/s2/favicons?domain=dizifun2.com&sz=%size%"
+    iconUrl = "https://www.google.com/s2/favicons?domain=dizifun3.com&sz=%size%"
 }
