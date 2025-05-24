@@ -235,8 +235,6 @@ class DiziFun : MainAPI() {
     ): Boolean {
         val mainPageSourceText = try { app.get(data).text } catch (e: Exception) { return false }
         val mainPageDocument = try { Jsoup.parse(mainPageSourceText) } catch (e: Exception) { return false }
-        val extractedLinks = mutableListOf<ExtractorLink>()
-
         var foundLinks = false
 
         val hexPattern = Regex("""hexToString\w*\("([a-fA-F0-9]+)"\)""")
@@ -247,19 +245,23 @@ class DiziFun : MainAPI() {
             if (decodedRelativeUrl.isNotBlank()) {
                 val embedUrl = fixUrl(decodedRelativeUrl)
                 val embedUrlHost = try { URI(embedUrl).host } catch (e: Exception) { null }
+
                 val iframeSourceText = try { app.get(embedUrl, referer = data).text } catch (e: Exception) { null }
 
                 if (iframeSourceText != null) {
+                    val baseUri = try { URI(embedUrl) } catch (e: Exception) { null }
+
                      if (embedUrlHost != null && embedUrlHost.contains("gujan.premiumvideo.click")) {
+                         // Gujan durumu - iframe içinden M3U8 ara
                          val iframeM3u8Pattern = Regex("""(https?:\/\/gujan\.premiumvideo\.click\/hls\/.*?\/playlist\.m3u8)""")
                          iframeM3u8Pattern.findAll(iframeSourceText).forEach { match ->
                             val iframeM3u8Url = match.groups[1]?.value
                              if (!iframeM3u8Url.isNullOrBlank()) {
                                  val cleanIframeM3u8Url = iframeM3u8Url.substringBefore('?')
-                                  extractedLinks.add(
+                                  callback.invoke(
                                      newExtractorLink(
                                          source = this.name,
-                                         name = "Gujan Kaynak",
+                                         name = "Kaynak: Gujan",
                                          url = cleanIframeM3u8Url,
                                          type = ExtractorLinkType.M3U8
                                      ) {
@@ -267,9 +269,11 @@ class DiziFun : MainAPI() {
                                          this.referer = embedUrl
                                      }
                                  )
+                                 foundLinks = true
                              }
                          }
                      } else if (embedUrlHost != null && embedUrlHost.contains("playhouse.premiumvideo.click")) {
+                         // Playhouse/PlayAmony durumu - iframe içinden M3U8 ara ve doğru alt domaini bul
                          val iframeSourceDocument = try { Jsoup.parse(iframeSourceText) } catch (e: Exception) { null }
                          if (iframeSourceDocument != null) {
                              val relativeM3u8Path = iframeSourceDocument.selectFirst("video#my-video_html5_api > source[type='application/x-mpegURL'], video > source[src*=.m3u8]")?.attr("src")
@@ -278,6 +282,7 @@ class DiziFun : MainAPI() {
                                  }
 
                              if (!relativeM3u8Path.isNullOrBlank()) {
+                                 // Iframe kaynak kodunda d1.premiumvideo.click veya d2.premiumvideo.click adreslerini ara
                                  val domainPattern = Regex("""https?:\/\/(d\d+\.premiumvideo\.click)""")
                                  val correctBaseDomain = domainPattern.find(iframeSourceText)?.groups?.get(1)?.value
 
@@ -285,10 +290,10 @@ class DiziFun : MainAPI() {
                                      val finalM3u8Url = "https://$correctBaseDomain$relativeM3u8Path"
                                      Log.i(name, "Playhouse/PlayAmony Nihai Oynatma URL: $finalM3u8Url")
 
-                                      extractedLinks.add(
+                                     callback.invoke(
                                         newExtractorLink(
                                             source = this.name,
-                                            name = "Playhouse/PlayAmony Kaynak",
+                                            name = "Kaynak: Playhouse/PlayAmony",
                                             url = finalM3u8Url,
                                             type = ExtractorLinkType.M3U8
                                         ) {
@@ -296,18 +301,22 @@ class DiziFun : MainAPI() {
                                             this.referer = embedUrl
                                         }
                                     )
+                                     foundLinks = true
+                                 } else {
+                                     Log.w(name, "Playhouse/PlayAmony embed sayfasında doğru alt domain bulunamadı: $embedUrl")
                                  }
+
+                             } else {
+                                 Log.w(name, "Playhouse/PlayAmony embed sayfasında M3U8 yolu bulunamadı: $embedUrl")
                              }
+                         } else {
+                            Log.w(name, "Playhouse/PlayAmony embed sayfası ayrıştırılamadı: $embedUrl")
                          }
                      }
                 }
             }
         }
 
-        val uniqueLinks = extractedLinks.distinctBy { it.url }
-        uniqueLinks.forEach { callback.invoke(it) }
-
-        foundLinks = uniqueLinks.isNotEmpty()
         if (!foundLinks) { Log.e("DiziFun", "loadLinks hiçbir yöntemle M3U8 linki bulamadı: $data") }
         return foundLinks
     }
