@@ -6,7 +6,7 @@ import com.lagradost.cloudstream3.utils.*
 import com.lagradost.cloudstream3.utils.ExtractorApi
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.ExtractorLinkType
-import com.lagradost.cloudstream3.utils.newExtractorLink // Bu import doğru kalacak
+import com.lagradost.cloudstream3.utils.newExtractorLink
 import com.lagradost.cloudstream3.SubtitleFile
 import com.lagradost.cloudstream3.utils.Qualities
 import java.net.URI
@@ -15,17 +15,12 @@ import org.jsoup.nodes.Document // Document tipi için
 
 class PremiumVideoExtractor : ExtractorApi() {
     override val name = "Playhouse"
-    // mainUrl muhtemelen iframe içine gönderilen URL'ler için kullanılmayacak,
-    // ama yine de tanımlı kalabilir.
     override val mainUrl = "https://playhouse.premiumvideo.click"
     override val requiresReferer = true
 
-    // Hex decode fonksiyonu (gerekiyorsa DiziFun.kt'den alınabilir veya buradan silinebilir)
-    // private fun hexToString(...) { ... }
-
     override suspend fun getUrl(
-        url: String, // iframe URL'si (örneğin //playhouse.premiumvideo.click/player/...)
-        referer: String?, // DiziFun sayfasının URL'si
+        url: String,
+        referer: String?,
         subtitleCallback: (SubtitleFile) -> Unit,
         callback: (ExtractorLink) -> Unit
     ) {
@@ -43,11 +38,10 @@ class PremiumVideoExtractor : ExtractorApi() {
             return
         }
 
-        // Gelen iframe URL'sine göre görünen adı ve player tipini belirle
         val (displayName, playerType) = when {
             url.contains("/armony/") -> "PlayAmony" to "amony"
             url.contains("/player/") -> "PlayHouse" to "house"
-            else -> "Bilinmeyen Oynatıcı" to "unknown" // Varsayılan veya Gujan'a özgü olabilir
+            else -> "Bilinmeyen Oynatıcı" to "unknown"
         }
 
         if (playerType == "unknown") {
@@ -55,7 +49,6 @@ class PremiumVideoExtractor : ExtractorApi() {
             return
         }
 
-        // === Video.js (/armony/) Mantığı (İlk sıraya alalım, daha belirgin) ===
         if (playerType == "amony") {
              Log.d(name, "Video.js ayrıştırıcı kullanılıyor for: $url ($displayName)")
              try {
@@ -68,23 +61,21 @@ class PremiumVideoExtractor : ExtractorApi() {
                      if (fullM3u8Url != null) {
                          Log.i(name, "[Video.js] Bulunan M3U8 URL ($displayName): $fullM3u8Url")
 
-                         // M3U8 URL'sine player tipini ekle
-                         val finalUrlForCallback = "$fullM3u8Url?player=$playerType#ignored"
-                         Log.i(name, "[Video.js] Nihai Oynatma URL ($displayName): $finalUrlForCallback")
+                         val cleanM3u8Url = fullM3u8Url.substringBefore('?')
+                         Log.i(name, "[Video.js] Nihai Oynatma URL ($displayName): $cleanM3u8Url")
 
                          callback.invoke(
                            newExtractorLink(
                              source    = this.name,
-                             name      = displayName, // "PlayAmony"
-                             url       = finalUrlForCallback, // Düzeltilmiş URL
-                             type      = ExtractorLinkType.M3U8
-                         ) { // newExtractorLink lambda
+                             name      = displayName,
+                             url       = cleanM3u8Url, // Düzeltilmiş URL
+                             type = ExtractorLinkType.M3U8
+                         ) {
                             this.quality = Qualities.Unknown.value
-                            this.referer = url // iframe URL'si referer olarak
+                            this.referer = url
                          }
                         )
 
-                         // Video.js Altyazıları (newExtractorLink lambdasının dışında kalmalı)
                          val subtitlePattern = Regex("""player\.addRemoteTextTrack\(\s*\{\s*.*?src:\s*['"]([^'"]+)['"],\s*srclang:\s*['"]([^'"]+)['"],\s*label:\s*['"]([^'"]+)['"].*?\}\s*,\s*false\s*\)""", RegexOption.IGNORE_CASE)
                          subtitlePattern.findAll(embedPageSource).forEach { match ->
                              val relativePath = match.groups[1]?.value
@@ -108,7 +99,6 @@ class PremiumVideoExtractor : ExtractorApi() {
              }
 
         } else if (playerType == "house") {
-            // === JW Player (/player/ veya varsayılan) Mantığı ===
             Log.d(name, "JW Player ayrıştırıcı kullanılıyor for: $url ($displayName)")
             try {
                 val m3u8Pattern = Regex("""file:\s*['"]([^'"]+\.m3u8)['"]""")
@@ -119,23 +109,21 @@ class PremiumVideoExtractor : ExtractorApi() {
                     if (fullM3u8Url != null) {
                          Log.i(name, "[JW Player] Bulunan M3U8 URL ($displayName): $fullM3u8Url")
 
-                         // M3U8 URL'sine player tipini ekle
-                         val finalUrlForCallback = "$fullM3u8Url?player=$playerType#ignored"
-                         Log.i(name, "[JW Player] Nihai Oynatma URL ($displayName): $finalUrlForCallback")
+                         val cleanM3u8Url = fullM3u8Url.substringBefore('?')
+                         Log.i(name, "[JW Player] Nihai Oynatma URL ($displayName): $cleanM3u8Url")
 
                          callback.invoke(
                             newExtractorLink(
                                 source    = this.name,
-                                name      = displayName, // "PlayHouse"
-                                url       = finalUrlForCallback, // Düzeltilmiş URL
-                                type      = ExtractorLinkType.M3U8
-                            ) { // newExtractorLink lambda
+                                name      = displayName,
+                                url       = cleanM3u8Url, // Düzeltilmiş URL
+                                type = ExtractorLinkType.M3U8
+                            ) {
                                 this.quality = Qualities.Unknown.value
-                                this.referer = url // iframe URL'si referer olarak
+                                this.referer = url
                             }
                         )
 
-                        // JW Player Altyazıları (newExtractorLink lambdasının dışında kalmalı)
                         val tracksPattern = Regex("""tracks:\s*\[(.*?)\]""", RegexOption.DOT_MATCHES_ALL)
                         val trackEntryPattern = Regex("""\{\s*file:\s*['"]([^'"]+)['"],\s*label:\s*['"]([^'"]+)['"]""")
 
@@ -160,10 +148,10 @@ class PremiumVideoExtractor : ExtractorApi() {
                             }
                         }
                     } else {
-                        Log.w(name, "[JW Player] M3U8 URL oluşturulamadı: $url ($displayName)")
+                        Log.w(name, "[JW Player] M3u8 URL oluşturulamadı: $url ($displayName)")
                     }
                 } else {
-                    Log.d(name, "[JW Player] Script içinde M3U8 linki bulunamadı: $url ($displayName)")
+                    Log.d(name, "[JW Player] Script içinde M3u8 linki bulunamadı: $url ($displayName)")
                 }
             } catch (e: Exception) {
                 Log.e(name, "[JW Player] Ayrıştırma hatası: $url ($displayName)", e)

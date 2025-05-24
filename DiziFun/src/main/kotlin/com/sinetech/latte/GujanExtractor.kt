@@ -15,12 +15,9 @@ import org.jsoup.nodes.Document
 
 class GujanExtractor : ExtractorApi() {
     override val name = "Gujan"
-    // mainUrl muhtemelen iframe içine gönderilen URL'ler için kullanılmayacak,
-    // ama yine de tanımlı kalabilir.
     override val mainUrl = "https://gujan.premiumvideo.click"
     override val requiresReferer = true
 
-    // DiziFun.kt'deki hexToString ile aynı olmalı (eğer ayrı bir dosya olarak kullanılacaksa)
     private fun hexToString(hex: String): String {
         return try {
             hex.chunked(2)
@@ -34,8 +31,8 @@ class GujanExtractor : ExtractorApi() {
     }
 
     override suspend fun getUrl(
-        url: String, // iframe URL'si (örneğin //playhouse.premiumvideo.click/player/...)
-        referer: String?, // DiziFun sayfasının URL'si
+        url: String,
+        referer: String?,
         subtitleCallback: (SubtitleFile) -> Unit,
         callback: (ExtractorLink) -> Unit
     ) {
@@ -54,7 +51,6 @@ class GujanExtractor : ExtractorApi() {
         }
         var successful = false
 
-        // Gelen iframe URL'sine göre görünen adı ve player tipini belirle
         val (displayName, playerType) = when {
             url.contains("/player/") -> "PlayHouse" to "house"
             url.contains("/armony/") -> "PlayAmony" to "amony"
@@ -67,7 +63,6 @@ class GujanExtractor : ExtractorApi() {
              return
         }
 
-        // --- JW Player Mantığını Dene ---
         try {
             Log.d(name, "JW Player ayrıştırıcı deneniyor for: $url ($displayName)")
             val m3u8Pattern = Regex("""file:\s*['"]([^'"]+\.m3u8)['"]""")
@@ -78,24 +73,22 @@ class GujanExtractor : ExtractorApi() {
                 if (fullM3u8Url != null) {
                     Log.i(name, "[JW Player] Bulunan M3U8 URL ($displayName): $fullM3u8Url")
 
-                    // M3U8 URL'sine player tipini ekle
-                    val finalUrlForCallback = "$fullM3u8Url?player=$playerType#ignored"
-                    Log.i(name, "[JW Player] Nihai Oynatma URL ($displayName): $finalUrlForCallback")
+                    val cleanM3u8Url = fullM3u8Url.substringBefore('?')
+                    Log.i(name, "[JW Player] Nihai Oynatma URL ($displayName): $cleanM3u8Url")
 
                     callback.invoke(
                           newExtractorLink(
                             source    = this.name,
                             name      = displayName,
-                            url       = finalUrlForCallback, // Düzeltilmiş URL
-                            type = ExtractorLinkType.M3U8 
-                        ) { // newExtractorLink lambda
+                            url       = cleanM3u8Url, // Düzeltilmiş URL
+                            type = ExtractorLinkType.M3U8
+                        ) {
                             this.quality = Qualities.Unknown.value
-                            this.referer = url // iframe URL'si referer olarak
+                            this.referer = url
                           }
                        )
                     successful = true
 
-                    // JW Player Altyazıları (newExtractorLink lambdasının dışında kalmalı)
                     val tracksPattern = Regex("""tracks:\s*\[(.*?)\]""", RegexOption.DOT_MATCHES_ALL)
                     val trackEntryPattern = Regex("""\{\s*file:\s*['"]([^'"]+)['"],\s*label:\s*['"]([^'"]+)['"]""")
                     tracksPattern.find(embedPageSource)?.groups?.get(1)?.value?.let { tracksBlock ->
@@ -123,7 +116,6 @@ class GujanExtractor : ExtractorApi() {
             Log.e(name, "[JW Player] Ayrıştırma hatası: $url ($displayName)", e)
         }
 
-        // --- JW Player başarısız olduysa Video.js Mantığını Dene ---
         if (!successful) {
             try {
                 Log.d(name, "Video.js ayrıştırıcı deneniyor for: $url ($displayName)")
@@ -136,24 +128,22 @@ class GujanExtractor : ExtractorApi() {
                     if (fullM3u8Url != null) {
                         Log.i(name, "[Video.js] Bulunan M3U8 URL ($displayName): $fullM3u8Url")
 
-                         // M3U8 URL'sine player tipini ekle
-                        val finalUrlForCallback = "$fullM3u8Url?player=$playerType#ignored"
-                        Log.i(name, "[Video.js] Nihai Oynatma URL ($displayName): $finalUrlForCallback")
+                        val cleanM3u8Url = fullM3u8Url.substringBefore('?')
+                        Log.i(name, "[Video.js] Nihai Oynatma URL ($displayName): $cleanM3u8Url")
 
                         callback.invoke(
                           newExtractorLink(
                             source    = this.name,
                             name      = displayName,
-                            url       = finalUrlForCallback, // Düzeltilmiş URL
+                            url       = cleanM3u8Url, // Düzeltilmiş URL
                             type = ExtractorLinkType.M3U8 
-                        ) { // newExtractorLink lambda
+                        ) {
                             this.quality = Qualities.Unknown.value
-                            this.referer = url // iframe URL'si referer olarak
+                            this.referer = url
                           }
                        )
                         successful = true
 
-                        // Video.js Altyazıları (newExtractorLink lambdasının dışında kalmalı)
                         val subtitlePattern = Regex("""player\.addRemoteTextTrack\(\s*\{\s*.*?src:\s*['"]([^'"]+)['"],\s*srclang:\s*['"]([^'"]+)['"],\s*label:\s*['"]([^'"]+)['"].*?\}\s*,\s*false\s*\)""", RegexOption.IGNORE_CASE)
                         subtitlePattern.findAll(embedPageSource).forEach { match ->
                             val subRelativePath = match.groups[1]?.value
