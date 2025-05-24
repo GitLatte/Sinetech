@@ -117,7 +117,7 @@ jobs:
           git config --local user.email "actionhelper@users.noreply.github.com"
           git config --local user.name "ActionHelper"
           git add TvBahcesi/src/main/resources/m3u/tvbahcesi.m3u
-          git commit -m "♻️ Tv Bahçesi listesi güncellendi (Otomatik)" || exit 0
+          git commit -m "♻️ Tv Bahçesi eklentisi için liste güncellendi" || exit 0
           if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then
             echo "Yerel branch ileride, değişiklikleri push yapılıyor."
             git push origin main
