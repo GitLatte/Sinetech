@@ -237,6 +237,8 @@ class DiziFun : MainAPI() {
         val mainPageDocument = try { Jsoup.parse(mainPageSourceText) } catch (e: Exception) { return false }
         val extractedLinks = mutableListOf<ExtractorLink>()
 
+        var foundLinks = false
+
         val hexPattern = Regex("""hexToString\w*\("([a-fA-F0-9]+)"\)""")
         val hexUrls = hexPattern.findAll(mainPageSourceText).mapNotNull { it.groups[1]?.value }.toList().distinct()
 
