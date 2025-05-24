@@ -1,7 +1,5 @@
 package com.sinetech.latte
 
-import com.sinetech.latte.PremiumVideoExtractor
-import com.sinetech.latte.GujanExtractor
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 import com.lagradost.cloudstream3.plugins.Plugin
 import android.content.Context
