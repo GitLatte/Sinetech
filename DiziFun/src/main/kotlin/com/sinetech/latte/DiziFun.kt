@@ -261,7 +261,7 @@ class DiziFun : MainAPI() {
                                   callback.invoke(
                                      newExtractorLink(
                                          source = this.name,
-                                         name = "Kaynak: Gujan",
+                                         name = "Gujan",
                                          url = cleanIframeM3u8Url,
                                          type = ExtractorLinkType.M3U8
                                      ) {
@@ -293,7 +293,7 @@ class DiziFun : MainAPI() {
                                      callback.invoke(
                                         newExtractorLink(
                                             source = this.name,
-                                            name = "Kaynak: Playhouse/PlayAmony",
+                                            name = "Playhouse/PlayAmony",
                                             url = finalM3u8Url,
                                             type = ExtractorLinkType.M3U8
                                         ) {
