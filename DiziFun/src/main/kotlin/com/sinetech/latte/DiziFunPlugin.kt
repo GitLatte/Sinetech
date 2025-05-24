@@ -11,7 +11,5 @@ import com.lagradost.cloudstream3.APIHolder
 class DiziFunPlugin : Plugin() {
     override fun load(context: Context) {
         registerMainAPI(DiziFun())
-        registerExtractorAPI(PremiumVideoExtractor())
-        registerExtractorAPI(GujanExtractor())
     }
 }
