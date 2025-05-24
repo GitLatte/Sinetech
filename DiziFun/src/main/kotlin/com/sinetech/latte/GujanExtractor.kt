@@ -87,7 +87,7 @@ class GujanExtractor : ExtractorApi() {
                             source    = this.name,
                             name      = displayName,
                             url       = finalUrlForCallback, // Düzeltilmiş URL
-                            type      = ExtractorLinkType.M3u8
+                            type = ExtractorLinkType.M3U8 
                         ) { // newExtractorLink lambda
                             this.quality = Qualities.Unknown.value
                             this.referer = url // iframe URL'si referer olarak
@@ -145,7 +145,7 @@ class GujanExtractor : ExtractorApi() {
                             source    = this.name,
                             name      = displayName,
                             url       = finalUrlForCallback, // Düzeltilmiş URL
-                            type      = ExtractorLinkType.M3u8
+                            type = ExtractorLinkType.M3U8 
                         ) { // newExtractorLink lambda
                             this.quality = Qualities.Unknown.value
                             this.referer = url // iframe URL'si referer olarak
