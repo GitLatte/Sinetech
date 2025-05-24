@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets
 import java.net.URI
 import com.lagradost.cloudstream3.HomePageList
 import com.lagradost.cloudstream3.LoadResponse
-import org.jsoup.Jsoup // iframe kaynak kodunu ayrıştırmak için
+import org.jsoup.Jsoup
 
 class DiziFun : MainAPI() {
     override var mainUrl = "https://dizifun3.com"
@@ -23,7 +23,6 @@ class DiziFun : MainAPI() {
     override val hasChromecastSupport = true
     override val hasDownloadSupport = true
     override val supportedTypes = setOf(TvType.TvSeries, TvType.Movie)
-
     override var sequentialMainPage = true 
     override var sequentialMainPageDelay       = 50L
     override var sequentialMainPageScrollDelay = 50L
@@ -234,12 +233,12 @@ class DiziFun : MainAPI() {
         subtitleCallback: (SubtitleFile) -> Unit,
         callback: (ExtractorLink) -> Unit
     ): Boolean {
-        val mainPageSource = try { app.get(data).text } catch (e: Exception) { return false }
+        val mainPageSourceText = try { app.get(data).text } catch (e: Exception) { return false }
+        val mainPageDocument = try { Jsoup.parse(mainPageSourceText) } catch (e: Exception) { return false }
         var foundLinks = false
-        
-        // === Doğrudan M3U8 URL'lerini Ana Sayfa Kaynağından Bul ===
+
         val directM3u8Pattern = Regex("""(https?:\/\/(?:d\d+\.premiumvideo\.click|gujan\.premiumvideo\.click)\/(?:uploads\/encode\/.*?\/master\.m3u8|hls\/.*?\/playlist\.m3u8))""")
-        directM3u8Pattern.findAll(mainPageSource).forEach { match ->
+        directM3u8Pattern.findAll(mainPageSourceText).forEach { match ->
             val directM3u8Url = match.groups[1]?.value
             if (!directM3u8Url.isNullOrBlank()) {
                 val cleanM3u8Url = directM3u8Url.substringBefore('?')
@@ -251,17 +250,15 @@ class DiziFun : MainAPI() {
                         type = ExtractorLinkType.M3U8
                     ) {
                         this.quality = Qualities.Unknown.value
-                        this.referer = data // DiziFun sayfasının URL'si referer olarak
+                        this.referer = data
                     }
                 )
                 foundLinks = true
             }
         }
-        // ==========================================================
 
-        // === Eğer doğrudan M3U8 bulunamazsa, iframe'leri ara ===
         if (!foundLinks) {
-            val scriptContent = mainPageSource.select("script").html()
+            val scriptContent = mainPageDocument.select("script").html()
             val hexPattern = Regex("""hexToString\w*\("([a-fA-F0-9]+)"\)""")
             val hexUrls = hexPattern.findAll(scriptContent).mapNotNull { it.groups[1]?.value }.toList().distinct()
 
@@ -270,32 +267,29 @@ class DiziFun : MainAPI() {
                 if (decodedRelativeUrl.isNotBlank()) {
                     val embedUrl = fixUrl(decodedRelativeUrl)
                     
-                    // Iframe kaynak kodunu indir
-                    val iframeSource = try { app.get(embedUrl, referer = data).text } catch (e: Exception) { null }
+                    val iframeSourceText = try { app.get(embedUrl, referer = data).text } catch (e: Exception) { null }
+                    val iframeSourceDocument = try { iframeSourceText?.let { Jsoup.parse(it) } } catch (e: Exception) { null }
 
-                    if (iframeSource != null) {
-                        // Iframe kaynak kodu içindeki doğrudan M3U8 URL'lerini ara
+                    if (iframeSourceText != null) {
                          val iframeM3u8Pattern = Regex("""(https?:\/\/(?:d\d+\.premiumvideo\.click|gujan\.premiumvideo\.click)\/(?:uploads\/encode\/.*?\/master\.m3u8|hls\/.*?\/playlist\.m3u8))""")
-                         iframeM3u8Pattern.findAll(iframeSource).forEach { match ->
+                         iframeM3u8Pattern.findAll(iframeSourceText).forEach { match ->
                             val iframeM3u8Url = match.groups[1]?.value
                              if (!iframeM3u8Url.isNullOrBlank()) {
                                  val cleanIframeM3u8Url = iframeM3u8Url.substringBefore('?')
                                   callback.invoke(
                                      newExtractorLink(
                                          source = this.name,
-                                         name = "Alternatif Kaynak", // veya player tipine göre isim
+                                         name = "Alternatif Kaynak",
                                          url = cleanIframeM3u8Url,
                                          type = ExtractorLinkType.M3U8
                                      ) {
                                          this.quality = Qualities.Unknown.value
-                                         this.referer = embedUrl // Iframe URL'si referer olarak
+                                         this.referer = embedUrl
                                      }
                                  )
-                                 foundLinks = true // iframe'den link bulundu
+                                 foundLinks = true
                              }
                          }
-                        // Eğer iframe içinden M3U8 bulunamazsa, belki JWPlayer/Video.js setup'ını ayrıştırabilirsiniz (şu anki extractör mantığı)
-                        // Ancak doğrudan M3U8 aramak daha iyidir.
                     }
                 }
             }
