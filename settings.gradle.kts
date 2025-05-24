@@ -1,4 +1,3 @@
-/**
 rootProject.name = "CloudstreamPlugins"
 
 include(
@@ -16,21 +15,5 @@ include(
     "DiziFun",
     "AniworldMC",
     "mywayTV",
-    "KickTR",
-    "Filmhe"
+    "KickTR"
 )
-*/    
-
-rootProject.name = "CloudstreamPlugins"
-
-val disabled = listOf("")
-
-File(rootDir, ".").eachDir { dir ->
-    if (!disabled.contains(dir.name) && File(dir, "build.gradle.kts").exists()) {
-        include(dir.name)
-    }
-}
-
-fun File.eachDir(block: (File) -> Unit) {
-    listFiles()?.filter { it.isDirectory }?.forEach { block(it) }
-}
