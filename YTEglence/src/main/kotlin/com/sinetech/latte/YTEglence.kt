@@ -20,7 +20,7 @@ import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
 
 class YTEglence : MainAPI() {
-    override var mainUrl = "https://iv.ggtyler.dev"
+    override var mainUrl = "https://inv.nadeko.net"
     override var name = "Youtube Eğlence İçerikleri「🎭」"
     override var lang = "tr"
     override val hasMainPage = true
@@ -54,12 +54,12 @@ class YTEglence : MainAPI() {
             val liveStreams = streamsDocument.select(".pure-u-1.pure-u-md-1-4").mapNotNull { streamElement ->
                 val titleElement = streamElement.selectFirst(".video-card-row a p")
                 val title = titleElement?.text() ?: return@mapNotNull null
-                
+
                 val streamUrl = streamElement.selectFirst(".thumbnail a")?.attr("href") ?: return@mapNotNull null
                 val videoId = streamUrl.substringAfter("watch?v=")
-                
+
                 val thumbnailUrl = streamElement.selectFirst(".thumbnail img")?.attr("src")
-                
+
                 newMovieSearchResponse(
                     title,
                     "$mainUrl/watch?v=$videoId",
@@ -88,12 +88,12 @@ class YTEglence : MainAPI() {
         val newestVideos = newestDocument.select(".pure-u-1.pure-u-md-1-4").mapNotNull { videoElement ->
             val titleElement = videoElement.selectFirst(".video-card-row a p")
             val title = titleElement?.text() ?: return@mapNotNull null
-            
+
             val videoUrl = videoElement.selectFirst(".thumbnail a")?.attr("href") ?: return@mapNotNull null
             val videoId = videoUrl.substringAfter("watch?v=")
-            
+
             val thumbnailUrl = videoElement.selectFirst(".thumbnail img")?.attr("src")
-            
+
             newMovieSearchResponse(
                 title,
                 "$mainUrl/watch?v=$videoId",
@@ -119,10 +119,10 @@ class YTEglence : MainAPI() {
         val playlists = playlistsDocument.select(".pure-u-1.pure-u-md-1-4").mapNotNull { playlistElement ->
             val titleElement = playlistElement.selectFirst(".video-card-row a p")
             val title = titleElement?.text() ?: return@mapNotNull null
-            
+
             val playlistUrl = playlistElement.selectFirst(".thumbnail a")?.attr("href") ?: return@mapNotNull null
             val thumbnailUrl = playlistElement.selectFirst(".thumbnail img")?.attr("src")
-            
+
             newMovieSearchResponse(
                 title,
                 "$mainUrl$playlistUrl",
@@ -157,12 +157,12 @@ class YTEglence : MainAPI() {
                     val firstStream = streamsDocument.selectFirst(".pure-u-1.pure-u-md-1-4")?.let { streamElement ->
                         val titleElement = streamElement.selectFirst(".video-card-row a p")
                         val title = titleElement?.text() ?: return@let null
-                        
+
                         val streamUrl = streamElement.selectFirst(".thumbnail a")?.attr("href") ?: return@let null
                         val videoId = streamUrl.substringAfter("watch?v=")
-                        
+
                         val thumbnailUrl = streamElement.selectFirst(".thumbnail img")?.attr("src")
-                        
+
                         newMovieSearchResponse(
                             "${channel.name} - $title",
                             "$mainUrl/watch?v=$videoId",
@@ -186,12 +186,12 @@ class YTEglence : MainAPI() {
                 val newestVideos = newestDocument.select(".pure-u-1.pure-u-md-1-4").mapNotNull { videoElement ->
                     val titleElement = videoElement.selectFirst(".video-card-row a p")
                     val title = titleElement?.text() ?: return@mapNotNull null
-                    
+
                     val videoUrl = videoElement.selectFirst(".thumbnail a")?.attr("href") ?: return@mapNotNull null
                     val videoId = videoUrl.substringAfter("watch?v=")
-                    
+
                     val thumbnailUrl = videoElement.selectFirst(".thumbnail img")?.attr("src")
-                    
+
                     newMovieSearchResponse(
                         title,
                         "$mainUrl/watch?v=$videoId",
@@ -217,10 +217,10 @@ class YTEglence : MainAPI() {
                 val playlists = playlistsDocument.select(".pure-u-1.pure-u-md-1-4").mapNotNull { playlistElement ->
                     val titleElement = playlistElement.selectFirst(".video-card-row a p")
                     val title = titleElement?.text() ?: return@mapNotNull null
-                    
+
                     val playlistUrl = playlistElement.selectFirst(".thumbnail a")?.attr("href") ?: return@mapNotNull null
                     val thumbnailUrl = playlistElement.selectFirst(".thumbnail img")?.attr("src")
-                    
+
                     newMovieSearchResponse(
                         title,
                         "$mainUrl$playlistUrl",
@@ -369,13 +369,13 @@ class YTEglence : MainAPI() {
 
                 fun convertPublishedText(publishedText: String): String {
                     val today = LocalDate.now() // Mevcut tarihi al
-                
+
                     // Regex ile tüm zaman ifadelerini tek seferde kontrol et
                     val match = Regex("(\\d+) (days?|weeks?|months?|years?) ago").find(publishedText)
                     match?.let {
                         val amount = it.groupValues[1].toInt() // Süre miktarı (örn: "3")
                         val unit = it.groupValues[2] // Süre birimi (örn: "weeks" veya "month")
-                
+
                         // Süre birimine göre tarihten eksiltme yap
                         val actualDate = when {
                             unit.startsWith("day") -> today.minusDays(amount.toLong())
@@ -384,11 +384,11 @@ class YTEglence : MainAPI() {
                             unit.startsWith("year") -> today.minusYears(amount.toLong())
                             else -> today
                         }
-                
+
                         // Formatlı tarih olarak döndür
                         return actualDate.format(DateTimeFormatter.ofPattern("dd MMM yyyy"))
                     }
-                
+
                     // Eğer tarih zaten "19 Apr 2025" gibi net bir formatta geliyorsa, direkt çevir
                     return publishedText.split(" ").let { parts ->
                         if (parts.size >= 3) {
@@ -404,7 +404,7 @@ class YTEglence : MainAPI() {
                         } else publishedText
                     }
                 }
-                
+
                 val turkishDate = convertPublishedText(publishedText)
 
 
@@ -434,7 +434,7 @@ class YTEglence : MainAPI() {
                     ) {
                         this.posterUrl = video.videoThumbnails.firstOrNull()?.url?.let { if (it.startsWith("/")) "${provider.mainUrl}$it" else it } ?: "${provider.mainUrl}/vi/${video.videoId}/maxres.jpg"
                         this.posterHeaders = mapOf()
-                this.quality = SearchQuality.HD 
+                this.quality = SearchQuality.HD
                     }
                 }
                 this.actors = listOf(

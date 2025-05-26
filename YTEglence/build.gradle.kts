@@ -1,5 +1,15 @@
 version = 1
 
+android {
+    compileOptions {
+        isCoreLibraryDesugaringEnabled = true
+    }
+}
+
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
+}
+
 cloudstream {
 
     authors = listOf("GitLatte", "patr0nq")
