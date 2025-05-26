@@ -8,6 +8,10 @@ import com.lagradost.cloudstream3.extractors.Voe
 import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.loadExtractor
+// apmap import'unu kaldırıyoruz, artık kullanılmayacak
+// import com.lagradost.cloudstream3.utils.Coroutines.apmap
+import kotlinx.coroutines.* // Coroutines için gerekli importlar
+import com.lagradost.cloudstream3.mvvm.logError // Hata loglamak için
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 
@@ -37,7 +41,7 @@ open class AniworldMC : MainAPI() {
             }
             if (home.isNotEmpty()) item.add(HomePageList(header, home))
         }
-        return HomePageResponse(item)
+        return newHomePageResponse(item)
     }
 
     override suspend fun search(query: String): List<SearchResponse> {
@@ -80,12 +84,17 @@ open class AniworldMC : MainAPI() {
             val page = ele.selectFirst("a")
             val epsDocument = app.get(fixUrl(page?.attr("href") ?: return@map)).document
             epsDocument.select("div#stream > ul:nth-child(4) li").mapNotNull { eps ->
+                val episodeUrl = fixUrl(eps.selectFirst("a")?.attr("href") ?: return@mapNotNull null)
+                val episodeNumber = eps.selectFirst("a")?.text()?.toIntOrNull()
+                val seasonNumber = page.text().toIntOrNull()
+
                 episodes.add(
-                    Episode(
-                        fixUrl(eps.selectFirst("a")?.attr("href") ?: return@mapNotNull null),
-                        episode = eps.selectFirst("a")?.text()?.toIntOrNull(),
-                        season = page.text().toIntOrNull()
-                    )
+                    newEpisode(episodeUrl) {
+                        this.episode = episodeNumber
+                        this.season = seasonNumber
+                        // runTime varsa buraya eklenebilir:
+                        // this.runTime = null // veya bulunan süre bilgisi
+                    }
                 )
             }
         }
@@ -115,7 +124,7 @@ open class AniworldMC : MainAPI() {
         callback: (ExtractorLink) -> Unit
     ): Boolean {
         val document = app.get(data).document
-        document.select("div.hosterSiteVideo ul li").map {
+        val hosters = document.select("div.hosterSiteVideo ul li").map {
             Triple(
                 it.attr("data-lang-key"),
                 it.attr("data-link-target"),
@@ -123,42 +132,55 @@ open class AniworldMC : MainAPI() {
             )
         }.filter {
             it.third != "Vidoza"
-        }.apmap {
-            val redirectUrl = app.get(fixUrl(it.second)).url
-            val lang = it.first.getLanguage(document)
-            val name = "${it.third} [${lang}]"
-            if (it.third == "VOE") {
-                Voe().getUrl(redirectUrl, data, subtitleCallback) { link ->
-                    callback.invoke(
-                        ExtractorLink(
-                            source = name,
-                            name = name,
-                            url = link.url,
-                            referer = link.referer,
-                            quality = link.quality,
-                            type = link.type,
-                            headers = link.headers,
-                            extractorData = link.extractorData
-                        )
-                    )
-                }
-            } else {
-                loadExtractor(redirectUrl, data, subtitleCallback) { link ->
-                    callback.invoke(
-                        ExtractorLink(
-                            source = name,
-                            name = name,
-                            url = link.url,
-                            referer = link.referer,
-                            quality = link.quality,
-                            type = link.type,
-                            headers = link.headers,
-                            extractorData = link.extractorData
-                        )
-                    )
-                }
-            }
         }
+
+        // apmap yerine async ve awaitAll kullanıyoruz
+        coroutineScope { // Yeni bir coroutineScope oluşturuyoruz
+            hosters.map { (langKey, linkTarget, hosterName) -> // Listeyi mapliyoruz
+                async(Dispatchers.IO) { // Her öğe için paralel bir async görev oluşturuyoruz
+                    try {
+                        val redirectUrl = app.get(fixUrl(linkTarget)).url
+                        val lang = langKey.getLanguage(document)
+                        val name = "${hosterName} [${lang}]"
+
+                        if (hosterName == "VOE") {
+                            Voe().getUrl(redirectUrl, data, subtitleCallback) { link ->
+                                callback.invoke(
+                                    ExtractorLink(
+                                        source = name,
+                                        name = name,
+                                        url = link.url,
+                                        referer = link.referer,
+                                        quality = link.quality,
+                                        type = link.type,
+                                        headers = link.headers,
+                                        extractorData = link.extractorData
+                                    )
+                                )
+                            }
+                        } else {
+                            loadExtractor(redirectUrl, data, subtitleCallback) { link ->
+                                callback.invoke(
+                                    ExtractorLink(
+                                        source = name,
+                                        name = name,
+                                        url = link.url,
+                                        referer = link.referer,
+                                        quality = link.quality,
+                                        type = link.type,
+                                        headers = link.headers,
+                                        extractorData = link.extractorData
+                                    )
+                                )
+                            }
+                        }
+                    } catch (e: Exception) {
+                        logError(e) // Hataları loglayın
+                    }
+                }
+            }.awaitAll() // Tüm async görevlerin tamamlanmasını bekliyoruz
+        }
+
 
         return true
     }
@@ -174,10 +196,10 @@ open class AniworldMC : MainAPI() {
 
     private fun String.getLanguage(document: Document): String? {
         val titleText = document.selectFirst("div.changeLanguageBox img[data-lang-key=$this]")?.attr("title")
-        
+
         return titleText?.let {
             when {
-                it.startsWith("mit Untertitel Deutsch", ignoreCase = true) -> "Almanca Altyazılı" 
+                it.startsWith("mit Untertitel Deutsch", ignoreCase = true) -> "Almanca Altyazılı"
                 it.startsWith("mit Untertitel Englisch", ignoreCase = true) -> "İngilizce Altyazılı"
                 else -> it.removePrefix("mit ").trim()
             }
