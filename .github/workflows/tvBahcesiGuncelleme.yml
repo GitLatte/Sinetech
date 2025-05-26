@@ -114,7 +114,7 @@ jobs:
         run: |
           git remote set-url origin https://${{ secrets.ACTIONHELPER }}@github.com/${{ github.repository }}
           git pull origin main
-          git config --local user.email "actionhelper@users.noreply.github.com"
+          git config --local user.email "212895703+ActionHelper@users.noreply.github.com"
           git config --local user.name "ActionHelper"
           git add TvBahcesi/src/main/resources/m3u/tvbahcesi.m3u
           git commit -m "♻️ Tv Bahçesi eklentisi için liste güncellendi" || exit 0

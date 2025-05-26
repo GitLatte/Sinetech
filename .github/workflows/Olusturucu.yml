@@ -23,12 +23,14 @@ jobs:
         uses: actions/checkout@master
         with:
           path: "src"
+          token: ${{ secrets.ACTIONHELPER }}
 
       - name: Checkout builds
         uses: actions/checkout@master
         with:
           ref: "builds"
           path: "builds"
+          token: ${{ secrets.ACTIONHELPER }}
       
       - name: Clean old builds
         run: rm $GITHUB_WORKSPACE/builds/*.cs3
@@ -53,8 +55,8 @@ jobs:
       - name: Push builds
         run: |
           cd $GITHUB_WORKSPACE/builds
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "212895703+ActionHelper@users.noreply.github.com"
+          git config --local user.name "ActionHelper"
           git add .
           git commit --amend -m "Build $GITHUB_SHA" || exit 0   # do not error if nothing to commit
           git push --force

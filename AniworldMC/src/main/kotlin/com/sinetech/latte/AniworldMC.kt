@@ -8,10 +8,8 @@ import com.lagradost.cloudstream3.extractors.Voe
 import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.loadExtractor
-// apmap import'unu kaldırıyoruz, artık kullanılmayacak
-// import com.lagradost.cloudstream3.utils.Coroutines.apmap
-import kotlinx.coroutines.* // Coroutines için gerekli importlar
-import com.lagradost.cloudstream3.mvvm.logError // Hata loglamak için
+import kotlinx.coroutines.*
+import com.lagradost.cloudstream3.mvvm.logError
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 
