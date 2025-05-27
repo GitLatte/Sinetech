@@ -4,8 +4,9 @@ version = 1
 cloudstream {
     language = "de"
 
-    description = "Aniworld plugin from Hexated Repository from Github."
-    authors = listOf("Hexated", "GitLatte")
+    description = "Aniworld eklentisinin Hexated isimli depodan alınıp güncellenmiş halidir. Altyazılı veya dublajlı olarak anime izleyebilirsiniz. Türkçe içerikler yoktur."
+
+    authors = listOf("GitLatte", "Hexated")
     status = 1 
     tvTypes = listOf(
         "AnimeMovie",
