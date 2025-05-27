@@ -8,6 +8,6 @@ cloudstream {
 
     status = 1
 
-    tvTypes = listOf("Movie, Podcast, AsianDrama, Anime")
+    tvTypes = listOf("Movie", "Podcast", "AsianDrama", "Anime")
     iconUrl = "https://www.google.com/s2/favicons?domain=webdramaturkey.org/&sz=%size%"
 }
