@@ -24,7 +24,7 @@ rootProject.name = "CloudstreamPlugins"
 
 // disabled değişkenine eklenmediği sürece tüm eklentiler projeye dahil edilir
 
-val disabled = listOf<String>("MuzikKanallari") // geçersiz bırakılacak eklentiler buraya
+val disabled = listOf<String>("") // geçersiz bırakılacak eklentiler buraya
 
 File(rootDir, ".").eachDir { dir ->
     if (!disabled.contains(dir.name) && File(dir, "build.gradle.kts").exists()) { // eklenti dizini içerisinde build.gradle.kts dosyası varsa eklenti projeye dahil edili
