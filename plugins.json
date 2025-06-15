@@ -344,7 +344,7 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 1,
+        "version": 2,
         "internalName": "YTCanliTV",
         "description": "Youtube \u00fczerinden canl\u0131 yay\u0131n yapan kanallar\u0131 izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/YTCanliTV.cs3",
@@ -365,7 +365,7 @@
             "Others",
             "Live"
         ],
-        "version": 1,
+        "version": 2,
         "internalName": "YTEglence",
         "description": "Youtube \u00fczerindeki kullan\u0131c\u0131 tercihleriyle eklenen e\u011flence kanallar\u0131n\u0131n i\u00e7eriklerini izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/YTEglence.cs3",
