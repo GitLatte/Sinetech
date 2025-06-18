@@ -45,7 +45,7 @@
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-events.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-        "fileSize": 22284,
+        "fileSize": 22286,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -56,10 +56,10 @@
             "Live"
         ],
         "version": 2,
-        "internalName": "DaddyLiveEvents",
+        "internalName": "DaddyLive Events",
         "description": "DaddyLive Events i\u00e7erik\u015ferini ve m\u00fcmk\u00fcn oldu\u011funca VPN olmadan izletmek i\u00e7in \ud83d\udcaa\ud83c\udffb\ud83d\udca5",
-        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLiveEvents.cs3",
-        "name": "DaddyLiveEvents"
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLive Events.cs3",
+        "name": "DaddyLive Events"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-vpn.png",
