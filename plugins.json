@@ -335,7 +335,7 @@
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/GitLatte/Sinetech",
         "fileSize": 13644,
-        "status": 0,
+        "status": 1,
         "language": "tr",
         "authors": [
             "GitLatte"
@@ -345,7 +345,7 @@
         ],
         "version": 1,
         "internalName": "YouTube \u00d6zel - Latte",
-        "description": "Youtube kanallar\u0131 deneme eklentisidir",
+        "description": "Youtube 7/24 i\u00e7eriklerinden derlemeler i\u00e7erir. Orijinal youtube ile oynat\u0131larak kullan\u0131lmaktad\u0131r. Bu konuda @feroxx`un geli\u015ftirdi\u011fi youtube extractor i\u00e7in te\u015fekk\u00fcrler.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/YouTube \u00d6zel - Latte.cs3",
         "name": "YouTube \u00d6zel - Latte"
     }
