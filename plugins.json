@@ -329,46 +329,5 @@
         "description": "Kore, \u00c7in ve Japon yap\u0131m\u0131 filmleri Web Drama Turkey \u00fczerinden T\u00fcrk\u00e7e altyaz\u0131l\u0131 olarak izleyebilirsiniz. Kore filmi izle, \u00c7in filmi izle, Asya filmleri izle.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/WebDramaTurkey - Latte.cs3",
         "name": "WebDramaTurkey - Latte"
-    },
-    {
-        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-        "fileSize": 20710,
-        "status": 0,
-        "language": "tr",
-        "authors": [
-            "GitLatte",
-            "patr0nq"
-        ],
-        "tvTypes": [
-            "Live"
-        ],
-        "version": 3,
-        "internalName": "Youtube Canl\u0131 TV - Latte",
-        "description": "Youtube \u00fczerinden canl\u0131 yay\u0131n yapan kanallar\u0131 izleyebilirsiniz.",
-        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/Youtube Canl\u0131 TV - Latte.cs3",
-        "name": "Youtube Canl\u0131 TV - Latte"
-    },
-    {
-        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-        "fileSize": 29386,
-        "status": 0,
-        "language": "tr",
-        "authors": [
-            "GitLatte",
-            "patr0nq"
-        ],
-        "tvTypes": [
-            "Others",
-            "Live"
-        ],
-        "version": 3,
-        "internalName": "Youtube E\u011flence - Latte",
-        "description": "Youtube \u00fczerindeki kullan\u0131c\u0131 tercihleriyle eklenen e\u011flence kanallar\u0131n\u0131n i\u00e7eriklerini izleyebilirsiniz.",
-        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/Youtube E\u011flence - Latte.cs3",
-        "name": "Youtube E\u011flence - Latte"
     }
 ]
