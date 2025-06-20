@@ -2,8 +2,6 @@ name: 🧹 Emine'nin eltisi Hatice
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */1 * * *' # Hatice'nin çalışma saatleri
 
 jobs:
   sync_plugins:
