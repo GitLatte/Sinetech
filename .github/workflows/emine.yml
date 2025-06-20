@@ -2,8 +2,6 @@ name: 🧹 Çocuklar Duymasın Emine
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */2 * * *' # Eminenin çalışma saatleri
 
 jobs:
   cleanup:
