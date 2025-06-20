@@ -1,0 +1,49 @@
+name: 🎨🖌️Neler değişti?
+
+on:
+  push:
+    branches:
+      - builds
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write  
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 1
+          token: ${{ secrets.ACTIONHELPER }}
+
+      - name: Checkout builds branch
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.LATTE_PAT }}
+          ref: builds
+          path: builds
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run update script
+        run: |
+          python .github/scripts/ic_mimar.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "212895703+ActionHelper@users.noreply.github.com"
+          git config --local user.name "ActionHelper"
+          git add README.md
+          if [ -f .github/scripts/last_plugins.json ]; then git add .github/scripts/last_plugins.json; fi
+          git commit -m "Güncellemeler kontrol edildi" || echo "Değişiklik olmadığından boşverdim"
+          git push origin main     

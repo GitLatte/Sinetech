@@ -1,0 +1,52 @@
+name: 👩🏻‍💻 Issue Yöneticisi
+
+on:
+  issues:
+    types: [opened, closed]
+
+jobs:
+  process_issue:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      models: read
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Eğer issue açılmışsa, AI ile özetleme yap
+      - name: AI ile Özetleme (Sadece Açık Issue için)
+        if: github.event.action == 'opened'
+        id: inference
+        uses: actions/ai-inference@v1
+        with:
+          prompt: |
+            Summarize the following GitHub issue in one paragraph with Turkish language. 
+            Add the question title at first with "Soru Başlığı:" and warn the user if the title is enough to tell or not. 
+            Also mention the username with using @ symbol. 
+            Your last sentence have to be "Sorununuzu en kısa sürede çözmek için elimizden geleni yapacağız. :
+            Issue User: ${{ github.event.issue.user.login }}
+            Title:  ${{ github.event.issue.title }}
+            Body: ${{ github.event.issue.body }}
+
+      # AI Özeti ile yorum ekle (Sadece Açık Issue için)
+      - name: AI ile Yorum Yap (Opened)
+        if: github.event.action == 'opened'
+        env:
+          GH_TOKEN: ${{ secrets.ACTIONHELPER }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          RESPONSE: "${{ steps.inference.outputs.response }}"
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "$RESPONSE"
+
+      # Eğer issue kapatıldıysa, otomatik kapanış mesajı ekle
+      - name: Kapatılan Sorun İçin Yorum Yap (Closed)
+        if: github.event.action == 'closed'
+        env:
+          GH_TOKEN: ${{ secrets.ACTIONHELPER }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "✅ **Bu konu sona erdi!** <br/><br/>@${ISSUE_USER}, Bu sorun kapatıldı. <br/>Eğer başka bir problem yaşarsan, yeni bir issue açabilirsin! <br/><hr/>👩🏻‍💻 @GitLatte sekreterlik ofisi"
