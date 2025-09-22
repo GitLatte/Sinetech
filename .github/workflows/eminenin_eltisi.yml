@@ -1,0 +1,33 @@
+name: 🧹 Emine'nin eltisi Hatice
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sync_plugins:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 👩🏻 Alo Hatice temizlik gerekiyor?
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACTIONHELPER }}
+
+      - name: 👧🏻 Efendim? Hemen geliyorum.
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.LATTE_PAT }}
+
+      - name: Temizle Gitsin
+        run: |
+          git config --local user.email "212895703+ActionHelper@users.noreply.github.com"
+          git config --local user.name "ActionHelper"
+          
+          git checkout --orphan new_main
+          git add -A
+          git commit -m "🧹 çok toz olmuş buralar!"
+          
+          git branch -D main
+          git branch -m main
+          
+          git push --force --set-upstream origin main           

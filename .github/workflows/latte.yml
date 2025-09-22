@@ -1,0 +1,67 @@
+name: 🛠️Oluştur ve ♻️ Güncelle
+
+on:
+  workflow_dispatch:        # Manuel tetiklemek için
+  push:                     # Aşağıdaki branch'lara push olursa otomatik tetikler
+    branches:
+      - main
+      - builds
+
+jobs:
+  sync_plugins:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📞Kendi deposunu çek
+        uses: actions/checkout@v4
+        with:
+          ref: builds
+          token: ${{ secrets.ACTIONHELPER }}
+
+      - name: 🗣️ Gizli depoyu özel klasöre çek
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.PRIVATE_REPO_OWNER }}/${{ secrets.PRIVATE_REPO_NAME }}
+          ref: builds
+          token: ${{ secrets.LATTE_PAT }}
+          path: private_repo
+
+      - name: 🔍 Gizli depodaki dosyaları listele
+        run: ls -la private_repo
+
+      - name: 🗃️ .cs3 ve plugins.json dosyalarını kopyala
+        run: |
+          cp private_repo/*.cs3 ./ || echo "Hiç .cs3 dosyası bulunamadı!"
+          cp private_repo/plugins.json ./ || echo "plugins.json dosyası bulunamadı!"
+
+      - name: 🏠 Ana dizindeki dosyaları kontrol et
+        run: ls -la
+
+      - name: 📜 plugins.json içindeki repo adreslerini güncelle
+        run: |
+          OLD_REPO_NAME="${{ secrets.PRIVATE_REPO_OWNER }}/${{ secrets.PRIVATE_REPO_NAME }}"
+          NEW_REPO_NAME="${{ github.repository }}"
+          PUBLIC_REPO_URL="https://raw.githubusercontent.com/${NEW_REPO_NAME}"
+          PUBLIC_REPO_GH_URL="https://github.com/${NEW_REPO_NAME}"
+
+          if [ -f plugins.json ]; then
+            sed -i "s|https://raw.githubusercontent.com/${OLD_REPO_NAME}|${PUBLIC_REPO_URL}|g" plugins.json
+            sed -i "s|https://github.com/${OLD_REPO_NAME}|${PUBLIC_REPO_GH_URL}|g" plugins.json
+          else
+            echo "plugins.json bulunamadığı için güncelleme yapılmadı!"
+          fi
+
+      - name: 👩🏻‍💻 Değişiklikleri commit'le ve push'la
+        run: |
+          git config --local user.email "212895703+ActionHelper@users.noreply.github.com"
+          git config --local user.name "ActionHelper"
+          git rm --ignore-unmatch --cached private_repo
+          if [ -f plugins.json ]; then
+            git add *.cs3 plugins.json
+          else
+            git add *.cs3
+          fi
+          git diff-index --quiet HEAD || git commit -m "🕊️ eklentiler güncellendi."
+          git remote set-url origin https://x-access-token:${{ secrets.ACTIONHELPER }}@github.com/${{ github.repository }}.git
+          git push origin builds
+          
