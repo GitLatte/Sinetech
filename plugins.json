@@ -22,6 +22,66 @@
         "name": "Aniworld MC - Latte"
     },
     {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-events.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 22670,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 3,
+        "internalName": "DaddyLive Events (A\u00e7\u0131k) - Latte",
+        "description": "DaddyLive Events i\u00e7erik\u015ferini ve m\u00fcmk\u00fcn oldu\u011funca VPN olmadan izletmek i\u00e7in \ud83d\udcaa\ud83c\udffb\ud83d\udca5",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLive Events (A\u00e7\u0131k) - Latte.cs3",
+        "name": "DaddyLive Events (A\u00e7\u0131k) - Latte"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 22684,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 4,
+        "internalName": "DaddyLive Spor (A\u00e7\u0131k) - Latte",
+        "description": "DaddyLive Spor kanallar\u0131 ve m\u00fcmk\u00fcn oldu\u011funca VPN olmadan izletmek i\u00e7in \ud83d\udcaa\ud83c\udffb\ud83d\udca5",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLive Spor (A\u00e7\u0131k) - Latte.cs3",
+        "name": "DaddyLive Spor (A\u00e7\u0131k) - Latte"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-vpn.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 23350,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 3,
+        "internalName": "DaddyLive Spor (VPN) - Latte",
+        "description": "DaddyLive Spor kanallar\u0131n\u0131 VPN ile izleyebilmek i\u00e7in",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLive Spor (VPN) - Latte.cs3",
+        "name": "DaddyLive Spor (VPN) - Latte"
+    },
+    {
         "iconUrl": "https://www.ddizi.im/images/logo.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/GitLatte/Sinetech",
@@ -185,6 +245,26 @@
         "description": "powerboard`un sinema ar\u015fivi",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerboard Sinema - Latte.cs3",
         "name": "powerboard Sinema - Latte"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/tv-logo/vavoo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+        "fileSize": 23015,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "GitLatte",
+            "patr0nq"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 3,
+        "internalName": "TO Grup T\u00fcrkiye (VPN) - Latte",
+        "description": "TO Grubu spor kanallar\u0131n\u0131 i\u00e7erir: Vavoo.to, Huhu.to, Kool.to, Oha.to - VPN gerektirir",
+        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TO Grup T\u00fcrkiye (VPN) - Latte.cs3",
+        "name": "TO Grup T\u00fcrkiye (VPN) - Latte"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/bahcesitv.png",
