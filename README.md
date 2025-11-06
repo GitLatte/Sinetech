@@ -1,5 +1,5 @@
 ## ☁️ Latte - Sinetech CloudStream Eklenti Listesi ve Değişiklik Günlüğü
-**Son Güncelleme:** 06 Kasım 2025 Perşembe - 01:19:17
+**Son Güncelleme:** 06 Kasım 2025 Perşembe - 04:40:51
 
 Bu depo tüm Latte - Sinetech eklentilerini ve en son güncellemeleri içerir.
 
